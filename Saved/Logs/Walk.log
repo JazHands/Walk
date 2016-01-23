@@ -1,0 +1,1181 @@
+﻿[2016.01.23-18.41.20:148][  0]Log file open, 01/23/16 13:41:20
+[2016.01.23-18.41.20:148][  0]LogInit:Display: Running engine for game: Walk
+[2016.01.23-18.41.20:148][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.23-18.41.20:148][  0]LogInit:Display: RandInit(-1918917849) SRandInit(-1918917848).
+[2016.01.23-18.41.20:148][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.23-18.41.20:148][  0]LogStats: Stats thread started at 0.091904
+[2016.01.23-18.41.20:148][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.23-18.41.20:148][  0]LogInit: API Version: 2758231
+[2016.01.23-18.41.20:148][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.23-18.41.20:148][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.23-18.41.20:148][  0]LogInit: Build Configuration: Development
+[2016.01.23-18.41.20:148][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.23-18.41.20:148][  0]LogInit: Command line: 
+[2016.01.23-18.41.20:148][  0]LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.23-18.41.20:148][  0]LogInit: Rocket: 1
+[2016.01.23-18.41.20:154][  0]LogInit: Using libcurl 7.41.0
+[2016.01.23-18.41.20:154][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.23-18.41.20:154][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.23-18.41.20:154][  0]LogInit:  - other features:
+[2016.01.23-18.41.20:154][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.23-18.41.20:154][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.23-18.41.20:154][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.23-18.41.20:154][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.23-18.41.20:154][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.23-18.41.20:154][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.23-18.41.20:154][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.23-18.41.20:154][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.23-18.41.20:154][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.23-18.41.20:154][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.23-18.41.20:161][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.23-18.41.20:168][  0]LogInit: Object subsystem initialized
+[2016.01.23-18.41.20:170][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.23-18.41.20:170][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.23-18.41.20:184][  0]LogInit: Computer: JAZY-PC
+[2016.01.23-18.41.20:184][  0]LogInit: User: Jazy
+[2016.01.23-18.41.20:184][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.23-18.41.20:184][  0]LogInit: High frequency timer resolution =3.320337 MHz
+[2016.01.23-18.41.20:184][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.23-18.41.20:184][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.23-18.41.20:184][  0]LogMemory: Process Physical Memory: 55.90 MB used, 55.90 MB peak
+[2016.01.23-18.41.20:184][  0]LogMemory: Process Virtual Memory: 54.75 MB used, 54.75 MB peak
+[2016.01.23-18.41.20:184][  0]LogMemory: Physical Memory: 2941.52 MB used, 16268.55 MB total
+[2016.01.23-18.41.20:184][  0]LogMemory: Virtual Memory: 374.74 MB used, 134217728.00 MB total
+[2016.01.23-18.41.20:215][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.23-18.41.20:624][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.23-18.41.20:624][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 1 output[s]
+[2016.01.23-18.41.20:625][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.23-18.41.20:625][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2016.01.23-18.41.20:625][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.23-18.41.20:628][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.23-18.41.20:628][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.23-18.41.20:640][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.23-18.41.20:996][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Intermediate/Shaders/WorkingDirectory/1732/).
+[2016.01.23-18.41.20:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/Jazy/AppData/Local/Temp/UnrealShaderWorkingDir/C3111CE94F93B5B6A817ED95F6425014/'.
+[2016.01.23-18.41.20:997][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.23-18.41.21:679][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.23-18.41.21:683][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.23-18.41.21:688][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.23-18.41.21:693][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.23-18.41.21:696][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.23-18.41.21:699][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.23-18.41.21:701][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.23-18.41.21:704][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.23-18.41.21:707][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.23-18.41.21:709][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.23-18.41.21:712][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.23-18.41.21:717][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.23-18.41.21:717][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.23-18.41.21:718][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.23-18.41.21:735][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.23-18.41.21:737][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.23-18.41.21:740][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.23-18.41.21:742][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.23-18.41.21:742][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.23-18.41.21:812][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.23-18.41.21:849][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB D:/Users/Jazy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.23-18.41.21:849][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/Jazy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.23-18.41.21:849][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.23-18.41.21:849][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.23-18.41.21:849][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.23-18.41.21:849][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.23-18.41.21:917][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.23-18.41.21:929][  0]LogDerivedDataCache: Using Local data cache path D:/Users/Jazy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.23-18.41.22:091][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.23-18.41.22:094][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.23-18.41.22:189][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.23-18.41.22:189][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.23-18.41.22:646][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.23-18.41.23:313][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.23-18.41.23:405][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2016.01.23-18.41.23:537][  0]SourceControl: Info Source control is disabled
+[2016.01.23-18.41.23:538][  0]SourceControl: Info Source control is disabled
+[2016.01.23-18.41.23:547][  0]SourceControl: Info Source control is disabled
+[2016.01.23-18.41.23:556][  0]SourceControl: Info Source control is disabled
+[2016.01.23-18.41.23:757][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.23-18.41.23:757][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.01.23-18.41.23:804][  0]LogEngine: Initializing Engine...
+[2016.01.23-18.41.23:805][  0]OCULUS: Info: 01/23/16 18:41:23: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.01.23-18.41.23:806][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for SetInitialState : x1: C2S=472.844, S2C=4.21644, Runtime=43.6703 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.01.23-18.41.23:806][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=103.002, S2C=1.80705, Runtime=0.903523 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.01.23-18.41.23:806][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for Hmd_Create : x1: C2S=13.2517, S2C=2.10822, Runtime=14.1552 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.01.23-18.41.23:806][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=7.83053, S2C=4.21644, Runtime=4.51761 (microseconds) C2Ssize=23, S2Csize=699 (bytes)
+
+[2016.01.23-18.41.23:807][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for SetNumberValue : x1: C2S=6.32466, S2C=2.10822, Runtime=5.11996 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.01.23-18.41.23:807][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for SetNumberValues : x1: C2S=5.42114, S2C=2.10822, Runtime=3.01174 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.01.23-18.41.23:807][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=5.42114, S2C=2.40939, Runtime=573.135 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.01.23-18.41.23:808][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for Hmd_ConfigureTracking : x1: C2S=25.2986, S2C=1.80705, Runtime=445.738 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.01.23-18.41.23:808][  0]OCULUS: Info: 01/23/16 18:41:23: [IPC] Call Stats for Hmd_Release : x1: C2S=11.1434, S2C=2.10822, Runtime=7.83053 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.01.23-18.41.23:818][  0]LogHMD: Oculus plugin initialized. Version: 4.10.2-2818068+++depot+UE4-Releases+4.10, LibOVR: 0.8.0.0, built Jan  6 2016, 17:37:41
+[2016.01.23-18.41.23:915][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.23-18.41.23:919][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.23-18.41.23:939][  0]LogInit: FAudioDevice initialized.
+[2016.01.23-18.41.23:955][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB D:/Users/Jazy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.23-18.41.23:961][  0]LogInit: Texture streaming: Enabled
+[2016.01.23-18.41.23:967][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.23-18.41.23:967][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.23-18.41.23:967][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0c0b05274c6eae15bed6deafdde025eb|08b6d0ddcdf241d2948b921cea9517e9|f55d4648-ddcd-4b84-813d-892c9ffdb03e
+[2016.01.23-18.41.23:967][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.23-18.41.24:007][  0]LogInit: Transaction tracking system initialized
+[2016.01.23-18.41.24:042][  0]BlueprintLog: New page: Editor Load
+[2016.01.23-18.41.28:792][  0]LocalizationService: Info Localization service is disabled
+[2016.01.23-18.41.28:941][  0]LogConsoleResponse:Display: 
+[2016.01.23-18.41.29:490][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jazy/Documents/Unreal Projects/Walk/Content/' took 0.01s
+[2016.01.23-18.41.29:490][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.23-18.41.29:579][  0]SourceControl: Info Source control is disabled
+[2016.01.23-18.41.30:547][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Program Files (x86)/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2016.01.23-18.41.31:466][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.01.23-18.41.31:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.01.23-18.41.31:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.01.23-18.41.31:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.01.23-18.41.31:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.01.23-18.41.31:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.01.23-18.41.31:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.01.23-18.41.32:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.01.23-18.41.32:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.01.23-18.41.32:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.01.23-18.41.32:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.01.23-18.41.32:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.01.23-18.41.32:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.01.23-18.41.32:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.01.23-18.41.32:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.01.23-18.41.32:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.01.23-18.41.32:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.01.23-18.41.32:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.01.23-18.41.32:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Fire01.uasset"
+[2016.01.23-18.41.32:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.01.23-18.41.32:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.01.23-18.41.32:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.01.23-18.41.32:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Light01.uasset"
+[2016.01.23-18.41.32:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.01.23-18.41.32:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Light02.uasset"
+[2016.01.23-18.41.32:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.01.23-18.41.32:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.01.23-18.41.32:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.01.23-18.41.32:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.01.23-18.41.32:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.01.23-18.41.32:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.01.23-18.41.32:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.01.23-18.41.32:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.01.23-18.41.32:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.01.23-18.41.32:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Steam01.uasset"
+[2016.01.23-18.41.33:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.01.23-18.41.33:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.01.23-18.41.33:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.01.23-18.41.33:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.01.23-18.41.33:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.01.23-18.41.33:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.01.23-18.41.33:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.01.23-18.41.33:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.01.23-18.41.33:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.01.23-18.41.33:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.01.23-18.41.33:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.01.23-18.41.33:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.01.23-18.41.33:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.01.23-18.41.33:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.01.23-18.41.34:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.01.23-18.41.34:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.01.23-18.41.34:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.01.23-18.41.34:945][  0]OCULUS: Info: 01/23/16 18:41:34: [From Service] 01/23/16 18:41:34: [Sensor2Impl] Lost 8 IMU samples: 9995 2 10
+
+[2016.01.23-18.41.34:945][  0]OCULUS: Info: 01/23/16 18:41:34: [From Service] 01/23/16 18:41:34: Set ISO Interface to 7 successfully
+
+[2016.01.23-18.41.34:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.01.23-18.41.35:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.01.23-18.41.35:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.01.23-18.41.35:408][  0]OCULUS: Info: 01/23/16 18:41:35: [From Service] 01/23/16 18:41:35: [ExternalCamera] Skipped 6 frames (1 -> 8): Req time: 0.000000, Current CT: -1.000000
+
+[2016.01.23-18.41.35:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Maps/StarterMap.umap"
+[2016.01.23-18.41.35:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.01.23-18.41.35:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.01.23-18.41.35:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.01.23-18.41.35:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.01.23-18.41.35:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.01.23-18.41.35:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.01.23-18.41.35:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.01.23-18.41.35:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.01.23-18.41.35:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.01.23-18.41.35:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.01.23-18.41.35:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.01.23-18.41.35:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.01.23-18.41.35:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.01.23-18.41.35:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.01.23-18.41.35:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.01.23-18.41.35:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.01.23-18.41.35:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.01.23-18.41.35:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.01.23-18.41.35:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.01.23-18.41.35:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.01.23-18.41.35:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.01.23-18.41.35:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.01.23-18.41.35:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.01.23-18.41.36:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.01.23-18.41.36:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.01.23-18.41.36:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.01.23-18.41.36:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.01.23-18.41.36:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.01.23-18.41.36:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.01.23-18.41.36:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.01.23-18.41.36:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.01.23-18.41.36:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.01.23-18.41.36:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.01.23-18.41.36:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.01.23-18.41.36:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.01.23-18.41.36:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.01.23-18.41.36:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.01.23-18.41.36:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.01.23-18.41.36:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.01.23-18.41.36:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.01.23-18.41.36:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.01.23-18.41.36:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.01.23-18.41.36:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.01.23-18.41.36:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.01.23-18.41.36:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.01.23-18.41.36:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.01.23-18.41.36:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.01.23-18.41.36:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.01.23-18.41.36:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.01.23-18.41.36:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.01.23-18.41.36:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.01.23-18.41.36:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.01.23-18.41.36:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.01.23-18.41.36:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.01.23-18.41.36:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.01.23-18.41.36:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.01.23-18.41.36:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.01.23-18.41.36:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.01.23-18.41.36:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.01.23-18.41.36:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.01.23-18.41.36:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.01.23-18.41.36:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.01.23-18.41.36:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.01.23-18.41.36:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.01.23-18.41.36:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Door.uasset"
+[2016.01.23-18.41.36:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.01.23-18.41.36:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.01.23-18.41.36:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.01.23-18.41.36:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.01.23-18.41.36:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.01.23-18.41.36:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.01.23-18.41.36:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.01.23-18.41.36:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.01.23-18.41.36:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.01.23-18.41.36:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.01.23-18.41.36:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.01.23-18.41.36:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.01.23-18.41.36:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.01.23-18.41.36:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.01.23-18.41.36:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.01.23-18.41.37:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.01.23-18.41.37:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.01.23-18.41.37:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.01.23-18.41.37:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.01.23-18.41.37:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.01.23-18.41.37:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.01.23-18.41.37:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.01.23-18.41.37:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.01.23-18.41.37:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.01.23-18.41.37:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.01.23-18.41.37:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.01.23-18.41.37:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.01.23-18.41.37:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.01.23-18.41.37:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.01.23-18.41.37:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.01.23-18.41.37:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.01.23-18.41.37:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.01.23-18.41.37:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.01.23-18.41.37:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.01.23-18.41.37:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.01.23-18.41.37:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.01.23-18.41.37:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.01.23-18.41.37:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.01.23-18.41.37:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.01.23-18.41.37:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.01.23-18.41.37:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.01.23-18.41.37:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.01.23-18.41.37:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.01.23-18.41.37:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.01.23-18.41.37:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.01.23-18.41.37:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.01.23-18.41.37:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.01.23-18.41.37:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.01.23-18.41.37:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.01.23-18.41.38:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.01.23-18.41.38:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.01.23-18.41.38:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.01.23-18.41.38:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.01.23-18.41.38:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.01.23-18.41.38:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.01.23-18.41.38:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.01.23-18.41.39:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.01.23-18.41.39:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.01.23-18.41.39:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.01.23-18.41.39:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.01.23-18.41.39:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.01.23-18.41.39:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.01.23-18.41.39:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.01.23-18.41.39:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.01.23-18.41.39:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.01.23-18.41.39:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.01.23-18.41.39:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.01.23-18.41.39:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.01.23-18.41.39:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.01.23-18.41.39:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.01.23-18.41.39:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.01.23-18.41.40:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.01.23-18.41.40:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.01.23-18.41.40:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.01.23-18.41.40:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.01.23-18.41.40:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.01.23-18.41.40:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.01.23-18.41.40:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.01.23-18.41.40:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.01.23-18.41.41:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.01.23-18.41.41:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.01.23-18.41.41:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.01.23-18.41.41:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.01.23-18.41.41:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.01.23-18.41.41:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.01.23-18.41.41:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.01.23-18.41.41:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.01.23-18.41.42:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.01.23-18.41.42:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.01.23-18.41.42:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.01.23-18.41.42:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.01.23-18.41.42:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.01.23-18.41.42:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.01.23-18.41.42:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.01.23-18.41.42:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.01.23-18.41.42:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.01.23-18.41.43:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.01.23-18.41.43:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.01.23-18.41.44:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.01.23-18.41.44:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.01.23-18.41.44:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.01.23-18.41.44:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.01.23-18.41.44:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.01.23-18.41.44:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.01.23-18.41.45:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.01.23-18.41.45:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.01.23-18.41.45:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.01.23-18.41.45:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.01.23-18.41.45:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.01.23-18.41.45:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.01.23-18.41.45:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.01.23-18.41.45:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.01.23-18.41.46:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.01.23-18.41.46:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.01.23-18.41.46:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.01.23-18.41.46:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.01.23-18.41.46:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.01.23-18.41.46:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.01.23-18.41.46:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.01.23-18.41.46:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.01.23-18.41.47:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.01.23-18.41.47:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.01.23-18.41.47:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.01.23-18.41.47:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.01.23-18.41.47:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.01.23-18.41.47:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.01.23-18.41.47:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.01.23-18.41.47:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.01.23-18.41.47:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.01.23-18.41.47:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.01.23-18.41.47:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.01.23-18.41.47:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.01.23-18.41.47:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.01.23-18.41.48:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.01.23-18.41.48:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.01.23-18.41.48:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.01.23-18.41.48:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.01.23-18.41.48:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.01.23-18.41.48:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.01.23-18.41.48:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.01.23-18.41.48:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.01.23-18.41.48:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.01.23-18.41.48:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.01.23-18.41.48:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.01.23-18.41.48:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.01.23-18.41.48:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.01.23-18.41.48:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.01.23-18.41.49:932][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.01.23-18.41.50:421][  0]LogSavePackage: Save=82.990974ms
+[2016.01.23-18.41.50:421][  0]LogSavePackage: Moving '../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Saved/Floor_400x400206683E74F703E3CAE13DE91B5476675.tmp' to '../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.01.23-18.41.50:425][  0]LogSavePackage: Total save time: 121.982194ms
+[2016.01.23-18.41.50:425][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.01.23-18.41.50:425][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.01.23-18.41.50:428][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jazy/Documents/Unreal Projects/Walk/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.23-18.41.50:428][  0]LightingResults: New page: Lighting Build
+[2016.01.23-18.41.50:433][  0]MapCheck: New page: Map Check
+[2016.01.23-18.41.50:433][  0]LightingResults: New page: Lighting Build
+[2016.01.23-18.41.50:451][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000049E6AAFB00
+[2016.01.23-18.41.54:178][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.23-18.41.54:250][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.23-18.41.54:302][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.23-18.41.54:348][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.089ms to complete.
+[2016.01.23-18.41.54:348][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.920
+[2016.01.23-18.41.56:263][  0]LogCollectionManager: Loaded 0 collections in 0.001977 seconds
+[2016.01.23-18.41.56:584][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jazy/Documents/Unreal Projects/Walk/Saved/Collections/' took 0.01s
+[2016.01.23-18.41.56:584][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jazy/Documents/Unreal Projects/Walk/Content/Developers/Jazy/Collections/' took 0.01s
+[2016.01.23-18.41.56:584][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jazy/Documents/Unreal Projects/Walk/Content/Collections/' took 0.01s
+[2016.01.23-18.41.56:584][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.23-18.41.56:650][  0]LogContentBrowser: Native class hierarchy populated in 0.0211 seconds. Added 1893 classes and 338 folders.
+[2016.01.23-18.41.56:788][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.23-18.42.00:030][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.23-18.42.00:437][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.01.23-18.42.01:595][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.23-18.42.02:275][  0]LogLoad: Full Startup: 42.54 seconds (BP compile: 0.04 seconds)
+[2016.01.23-18.42.02:285][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.01.23-18.42.03:345][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.23-18.42.03:928][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:3).
+[2016.01.23-18.42.04:063][  1]OCULUS: Info: 01/23/16 18:42:04: [From Service] 01/23/16 18:42:04: [ExternalCamera] Skipped 2 frames (1741 -> 1744): Req time: 759.863199, Current CT: 759.863207
+
+[2016.01.23-18.42.04:193][  5]OCULUS: Info: 01/23/16 18:42:04: [From Service] 01/23/16 18:42:04: [ExternalCamera] Skipped 2 frames (1749 -> 1752): Req time: 759.996528, Current CT: 759.996529
+
+[2016.01.23-18.42.04:217][  7]OCULUS: Info: 01/23/16 18:42:04: [From Service] 01/23/16 18:42:04: [ExternalCamera] Skipped 1 frames (1752 -> 1754): Req time: 760.029861, Current CT: 760.029862
+
+[2016.01.23-18.42.04:412][ 18]OCULUS: Info: 01/23/16 18:42:04: [From Service] 01/23/16 18:42:04: [ExternalCamera] Skipped 10 frames (1754 -> 1765): Req time: 760.213188, Current CT: 760.213191
+
+[2016.01.23-18.42.09:241][508]OCULUS: Info: 01/23/16 18:42:09: [From Service] 01/23/16 18:42:09: [ExternalCamera] Skipped 4 frames (2050 -> 2055): Req time: 765.046348, Current CT: 765.046348
+
+[2016.01.23-18.42.09:326][517]OCULUS: Info: 01/23/16 18:42:09: [From Service] 01/23/16 18:42:09: [ExternalCamera] Skipped 4 frames (2055 -> 2060): Req time: 765.129678, Current CT: 765.129676
+
+[2016.01.23-18.42.13:948][986]OCULUS: Info: 01/23/16 18:42:13: [From Service] 01/23/16 18:42:13: [ExternalCamera] Skipped 2 frames (2335 -> 2338): Req time: 769.762847, Current CT: 769.762848
+
+[2016.01.23-18.42.14:078][  0]OCULUS: Info: 01/23/16 18:42:14: [From Service] 01/23/16 18:42:14: [ExternalCamera] Skipped 6 frames (2338 -> 2345): Req time: 769.879510, Current CT: 769.879511
+
+[2016.01.23-18.42.14:146][  7]OCULUS: Info: 01/23/16 18:42:14: [From Service] 01/23/16 18:42:14: [ExternalCamera] Skipped 3 frames (2345 -> 2349): Req time: 769.946175, Current CT: 769.946179
+
+[2016.01.23-18.42.15:153][106]OCULUS: Info: 01/23/16 18:42:15: [From Service] 01/23/16 18:42:15: [ExternalCamera] Skipped 3 frames (2406 -> 2410): Req time: 770.962815, Current CT: 770.962815
+
+[2016.01.23-18.42.20:614][659]OCULUS: Info: 01/23/16 18:42:20: [From Service] 01/23/16 18:42:20: [ExternalCamera] Skipped 1 frames (2736 -> 2738): Req time: 776.429288, Current CT: 776.429288
+
+[2016.01.23-18.42.20:711][663]LogAssetRegistry: Asset discovery search completed in 57.3162 seconds
+[2016.01.23-18.42.20:711][663]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.23-18.42.20:711][663]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.01.23-18.42.20:850][676]OCULUS: Info: 01/23/16 18:42:20: [From Service] 01/23/16 18:42:20: [ExternalCamera] Skipped 13 frames (2738 -> 2752): Req time: 776.662612, Current CT: 776.662609
+
+[2016.01.23-18.42.20:894][681]OCULUS: Info: 01/23/16 18:42:20: [From Service] 01/23/16 18:42:20: [ExternalCamera] Skipped 1 frames (2752 -> 2754): Req time: 776.695941, Current CT: 776.695941
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:50: [From Service] 01/23/16 18:43:50: [ExternalCamera] Skipped 2 frames (8150 -> 8153): Req time: 866.676140, Current CT: 866.676140
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [ExternalCamera] Skipped 13 frames (8153 -> 8167): Req time: 866.909464, Current CT: 866.909469
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: WARNING: [CameraTimeSynchronizer] out of sync. Exposure Delta = 0.0 ms, cameraDelta = 16.7 ms.
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [CameraTimeSynchronizer] Repeated exposure time: 867.0928 867.0928
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [ExternalCamera] Skipped 13 frames (8167 -> 8181): Req time: 0.000000, Current CT: -1.000000
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [CameraTimeSynchronizer] successfully synchronized.
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [ExternalCamera] Skipped 10 frames (8181 -> 8192): Req time: 0.000000, Current CT: -1.000000
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [ExternalCamera] Skipped 2 frames (8192 -> 8195): Req time: 0.000000, Current CT: 867.392793
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [ExternalCamera] Skipped 3 frames (8195 -> 8199): Req time: 0.000000, Current CT: 867.476121
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [ExternalCamera] Skipped 4 frames (8199 -> 8204): Req time: 867.559451, Current CT: 867.559450
+
+[2016.01.23-18.43.51:948][953]OCULUS: Info: 01/23/16 18:43:51: [From Service] 01/23/16 18:43:51: [ExternalCamera] Skipped 5 frames (8204 -> 8210): Req time: 867.659446, Current CT: 867.659444
+
+[2016.01.23-18.43.52:246][954]OCULUS: Info: 01/23/16 18:43:52: [From Service] 01/23/16 18:43:52: [ExternalCamera] Skipped 1 frames (8220 -> 8222): Req time: 867.859433, Current CT: 867.859432
+
+[2016.01.23-18.43.52:246][954]OCULUS: Info: 01/23/16 18:43:52: [From Service] 01/23/16 18:43:52: [ExternalCamera] Skipped 5 frames (8222 -> 8228): Req time: 867.959428, Current CT: 867.959428
+
+[2016.01.23-18.43.53:463][956]OCULUS: Info: 01/23/16 18:43:52: [From Service] 01/23/16 18:43:52: [ExternalCamera] Skipped 1 frames (8269 -> 8271): Req time: 868.676068, Current CT: 868.676069
+
+[2016.01.23-18.43.54:445][959]OCULUS: Info: 01/23/16 18:43:54: [From Service] 01/23/16 18:43:54: =======================================================
+Camera Statistics for Camera with serial 2190SY014Z1T (period 5s)
+=======================================================
+                                  per         total
+   Complete Frames       :        289          8345
+   Truncated Frames      :          0             0
+   Skipped Frames        :          9            15
+   Recovered Frames      :          0             0
+=======================================================
+
+[2016.01.23-18.43.54:445][959]OCULUS: Info: 01/23/16 18:43:54: [From Service] 01/23/16 18:43:54:    Driver Stats (in period):
+      Frames Delivered    :       8345
+      Iso Reads Submitted :      46473
+      Iso Reads Completed :      46468
+
+[2016.01.23-18.43.54:908][960]OCULUS: Info: 01/23/16 18:43:54: [From Service] 01/23/16 18:43:54: [ExternalCamera] Skipped 1 frames (8382 -> 8384): Req time: 870.559336, Current CT: 870.559337
+
+[2016.01.23-18.43.54:908][960]OCULUS: Info: 01/23/16 18:43:54: [From Service] 01/23/16 18:43:54: [ExternalCamera] Skipped 3 frames (8384 -> 8388): Req time: 870.626001, Current CT: 870.626001
+
+[2016.01.23-18.43.54:908][960]OCULUS: Info: 01/23/16 18:43:54: [From Service] 01/23/16 18:43:54: [ExternalCamera] Skipped 3 frames (8388 -> 8392): Req time: 870.692665, Current CT: 870.692667
+
+[2016.01.23-18.43.59:617][973]OCULUS: Info: 01/23/16 18:43:59: [From Service] 01/23/16 18:43:59: [ExternalCamera] Skipped 4 frames (8648 -> 8653): Req time: 875.042528, Current CT: 875.042530
+
+[2016.01.23-18.43.59:617][973]OCULUS: Info: 01/23/16 18:43:59: [From Service] 01/23/16 18:43:59: [ExternalCamera] Skipped 1 frames (8660 -> 8662): Req time: 875.192528, Current CT: 875.192530
+
+[2016.01.23-18.43.59:617][973]OCULUS: Info: 01/23/16 18:43:59: [From Service] 01/23/16 18:43:59: [ExternalCamera] Skipped 8 frames (8662 -> 8671): Req time: 875.342524, Current CT: 875.342530
+
+[2016.01.23-18.43.59:617][973]OCULUS: Info: 01/23/16 18:43:59: [From Service] 01/23/16 18:43:59: [ExternalCamera] Skipped 1 frames (8674 -> 8676): Req time: 875.425859, Current CT: 875.425858
+
+[2016.01.23-18.44.01:563][979]OCULUS: Info: 01/23/16 18:44:01: [From Service] 01/23/16 18:44:01: [ExternalCamera] Skipped 1 frames (8787 -> 8789): Req time: 877.309135, Current CT: 877.309136
+
+[2016.01.23-18.44.01:912][980]OCULUS: Info: 01/23/16 18:44:01: [From Service] 01/23/16 18:44:01: [ExternalCamera] Skipped 1 frames (8795 -> 8797): Req time: 877.442464, Current CT: 877.442464
+
+[2016.01.23-18.44.01:912][980]OCULUS: Info: 01/23/16 18:44:01: [From Service] 01/23/16 18:44:01: [ExternalCamera] Skipped 1 frames (8806 -> 8808): Req time: 877.625788, Current CT: 877.625787
+
+[2016.01.23-18.44.01:912][980]OCULUS: Info: 01/23/16 18:44:01: [From Service] 01/23/16 18:44:01: [ExternalCamera] Skipped 2 frames (8808 -> 8811): Req time: 877.675785, Current CT: 877.675784
+
+[2016.01.23-18.44.01:912][980]OCULUS: Info: 01/23/16 18:44:01: [From Service] 01/23/16 18:44:01: [ExternalCamera] Skipped 1 frames (8811 -> 8813): Req time: 877.709116, Current CT: 877.709116
+
+[2016.01.23-18.44.02:446][981]OCULUS: Info: 01/23/16 18:44:02: [From Service] 01/23/16 18:44:02: [ExternalCamera] Skipped 1 frames (8824 -> 8826): Req time: 877.925772, Current CT: 877.925771
+
+[2016.01.23-18.44.02:446][981]OCULUS: Info: 01/23/16 18:44:02: [From Service] 01/23/16 18:44:02: [ExternalCamera] Skipped 15 frames (8826 -> 8842): Req time: 878.192427, Current CT: 878.192427
+
+[2016.01.23-18.44.02:446][981]OCULUS: Info: 01/23/16 18:44:02: [From Service] 01/23/16 18:44:02: [ExternalCamera] Skipped 2 frames (8842 -> 8845): Req time: 878.242425, Current CT: 878.242425
+
+[2016.01.23-18.44.03:269][983]OCULUS: Info: 01/23/16 18:44:03: [From Service] 01/23/16 18:44:03: [ExternalCamera] Skipped 1 frames (8879 -> 8881): Req time: 878.842409, Current CT: 878.842409
+
+[2016.01.23-18.44.03:269][983]OCULUS: Info: 01/23/16 18:44:03: [From Service] 01/23/16 18:44:03: [ExternalCamera] Skipped 6 frames (8881 -> 8888): Req time: 878.959071, Current CT: 878.959076
+
+[2016.01.23-18.44.03:269][983]OCULUS: Info: 01/23/16 18:44:03: [From Service] 01/23/16 18:44:03: [ExternalCamera] Skipped 6 frames (8888 -> 8895): Req time: 879.075738, Current CT: 879.075745
+
+[2016.01.23-18.44.08:981][  0]OCULUS: Info: 01/23/16 18:44:08: [From Service] 01/23/16 18:44:08: [ExternalCamera] Skipped 2 frames (9223 -> 9226): Req time: 884.592191, Current CT: 884.592192
+
+[2016.01.23-18.44.08:981][  0]OCULUS: Info: 01/23/16 18:44:08: [From Service] 01/23/16 18:44:08: [ExternalCamera] Skipped 4 frames (9226 -> 9231): Req time: 884.675522, Current CT: 884.675525
+
+[2016.01.23-18.44.08:981][  0]OCULUS: Info: 01/23/16 18:44:08: [From Service] 01/23/16 18:44:08: [ExternalCamera] Skipped 2 frames (9231 -> 9234): Req time: 884.725523, Current CT: 884.725524
+
+[2016.01.23-18.44.18:732][ 29]OCULUS: Info: 01/23/16 18:44:18: [From Service] 01/23/16 18:44:18: [ExternalCamera] Skipped 1 frames (9819 -> 9821): Req time: 894.508505, Current CT: 894.508509
+
+[2016.01.23-18.44.24:724][ 47]OCULUS: Info: 01/23/16 18:44:24: [From Service] 01/23/16 18:44:24: [ExternalCamera] Skipped 1 frames (10171 -> 10173): Req time: 900.374984, Current CT: 900.374985
+
+[2016.01.23-18.44.24:724][ 47]OCULUS: Info: 01/23/16 18:44:24: [From Service] 01/23/16 18:44:24: [ExternalCamera] Skipped 3 frames (10173 -> 10177): Req time: 900.441649, Current CT: 900.441651
+
+[2016.01.23-18.44.27:832][ 52]OCULUS: Info: 01/23/16 18:44:27: [From Service] 01/23/16 18:44:27: [ExternalCamera] Skipped 1 frames (10332 -> 10334): Req time: 903.058247, Current CT: 903.058246
+
+[2016.01.23-18.44.27:832][ 52]OCULUS: Info: 01/23/16 18:44:27: [From Service] 01/23/16 18:44:27: [ExternalCamera] Skipped 5 frames (10334 -> 10340): Req time: 903.158242, Current CT: 903.158241
+
+[2016.01.23-18.44.27:914][ 53]OCULUS: Info: 01/23/16 18:44:27: [From Service] 01/23/16 18:44:27: [ExternalCamera] Skipped 1 frames (10370 -> 10372): Req time: 903.691556, Current CT: 903.691549
+
+[2016.01.23-18.44.40:400][ 89]OCULUS: Info: 01/23/16 18:44:39: [From Service] 01/23/16 18:44:39: [ExternalCamera] Skipped 2 frames (11085 -> 11088): Req time: 915.624420, Current CT: 915.624420
+
+[2016.01.23-18.44.42:065][ 92]OCULUS: Info: 01/23/16 18:44:41: [From Service] 01/23/16 18:44:41: [ExternalCamera] Skipped 2 frames (11184 -> 11187): Req time: 917.274366, Current CT: 917.274365
+
+[2016.01.23-18.44.42:065][ 92]OCULUS: Info: 01/23/16 18:44:41: [From Service] 01/23/16 18:44:41: [ExternalCamera] Skipped 15 frames (11187 -> 11203): Req time: 917.541021, Current CT: 917.541021
+
+[2016.01.23-18.44.42:065][ 92]OCULUS: Info: 01/23/16 18:44:41: [From Service] 01/23/16 18:44:41: [ExternalCamera] Skipped 8 frames (11203 -> 11212): Req time: 917.691015, Current CT: 917.691017
+
+[2016.01.23-18.44.48:633][109]OCULUS: Info: 01/23/16 18:44:48: [From Service] 01/23/16 18:44:48: [ExternalCamera] Skipped 2 frames (11584 -> 11587): Req time: 923.940811, Current CT: 923.940812
+
+[2016.01.23-18.44.48:633][109]OCULUS: Info: 01/23/16 18:44:48: [From Service] 01/23/16 18:44:48: [ExternalCamera] Skipped 15 frames (11587 -> 11603): Req time: 924.207468, Current CT: 924.207476
+
+[2016.01.23-18.44.48:633][109]OCULUS: Info: 01/23/16 18:44:48: [From Service] 01/23/16 18:44:48: [ExternalCamera] Skipped 4 frames (11603 -> 11608): Req time: 924.290806, Current CT: 924.290810
+
+[2016.01.23-18.44.48:633][109]OCULUS: Info: 01/23/16 18:44:48: [From Service] 01/23/16 18:44:48: [ExternalCamera] Skipped 4 frames (11608 -> 11613): Req time: 924.374140, Current CT: 924.374142
+
+[2016.01.23-18.45.00:467][143]OCULUS: Info: 01/23/16 18:44:59: [From Service] 01/23/16 18:44:59: [ExternalCamera] Skipped 2 frames (12291 -> 12294): Req time: 935.723756, Current CT: 935.723764
+
+[2016.01.23-18.45.00:467][143]OCULUS: Info: 01/23/16 18:45:00: [From Service] 01/23/16 18:45:00: [ExternalCamera] Skipped 15 frames (12294 -> 12310): Req time: 935.990420, Current CT: 935.990418
+
+[2016.01.23-18.45.00:467][143]OCULUS: Info: 01/23/16 18:45:00: [From Service] 01/23/16 18:45:00: [ExternalCamera] Skipped 8 frames (12310 -> 12319): Req time: 936.140412, Current CT: 936.140412
+
+[2016.01.23-18.45.14:730][186]OCULUS: Info: 01/23/16 18:45:14: [From Service] 01/23/16 18:45:14: [ExternalCamera] Skipped 1 frames (13178 -> 13180): Req time: 950.489866, Current CT: 950.489866
+
+[2016.01.23-18.45.31:799][235]OCULUS: Info: 01/23/16 18:45:31: [From Service] 01/23/16 18:45:31: [ExternalCamera] Skipped 1 frames (14175 -> 14177): Req time: 967.105974, Current CT: 967.105973
+
+[2016.01.23-18.45.31:799][235]OCULUS: Info: 01/23/16 18:45:31: [From Service] 01/23/16 18:45:31: [ExternalCamera] Skipped 6 frames (14177 -> 14184): Req time: 967.222635, Current CT: 967.222641
+
+[2016.01.23-18.45.31:799][235]OCULUS: Info: 01/23/16 18:45:31: [From Service] 01/23/16 18:45:31: [ExternalCamera] Skipped 2 frames (14184 -> 14187): Req time: 967.272639, Current CT: 967.272635
+
+[2016.01.23-18.45.31:799][235]OCULUS: Info: 01/23/16 18:45:31: [From Service] 01/23/16 18:45:31: [ExternalCamera] Skipped 7 frames (14187 -> 14195): Req time: 967.405963, Current CT: 967.405965
+
+[2016.01.23-18.45.31:799][235]OCULUS: Info: 01/23/16 18:45:31: [From Service] 01/23/16 18:45:31: [ExternalCamera] Skipped 11 frames (14195 -> 14207): Req time: 967.605957, Current CT: 967.605960
+
+[2016.01.23-18.45.32:141][236]OCULUS: Info: 01/23/16 18:45:31: [From Service] 01/23/16 18:45:31: [ExternalCamera] Skipped 1 frames (14210 -> 14212): Req time: 967.689291, Current CT: 967.689291
+
+[2016.01.23-18.45.36:818][250]OCULUS: Info: 01/23/16 18:45:36: [From Service] 01/23/16 18:45:36: [ExternalCamera] Skipped 1 frames (14500 -> 14502): Req time: 972.522476, Current CT: 972.522476
+
+[2016.01.23-18.45.39:914][258]OCULUS: Info: 01/23/16 18:45:39: [From Service] 01/23/16 18:45:39: [ExternalCamera] Skipped 1 frames (14692 -> 14694): Req time: 975.722365, Current CT: 975.722367
+
+[2016.01.23-18.46.11:752][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.23-18.46.11:752][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-18.46.11:752][756]OCULUS: Info: 01/23/16 18:46:11: [IPC] Call Stats for Hmd_Create : x1: C2S=18.3716, S2C=3.91527, Runtime=11.7458 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.01.23-18.46.11:753][756]OCULUS: Info: 01/23/16 18:46:11: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=612.89, S2C=5.72231, Runtime=6.32466 (microseconds) C2Ssize=23, S2Csize=699 (bytes)
+
+[2016.01.23-18.46.11:753][756]OCULUS: Info: 01/23/16 18:46:11: [IPC] Call Stats for SetNumberValue : x1: C2S=14.1552, S2C=3.61409, Runtime=4.51761 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.01.23-18.46.11:753][756]OCULUS: Info: 01/23/16 18:46:11: [IPC] Call Stats for SetNumberValues : x1: C2S=8.1317, S2C=2.71057, Runtime=3.01174 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.01.23-18.46.11:755][756]OCULUS: Info: 01/23/16 18:46:11: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=5.72231, S2C=3.91527, Runtime=2267.54 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.01.23-18.46.11:771][756]OCULUS: Error: 01/23/16 18:46:11: [IPC] WARNING: Overhead alert threshold exceeded for Hmd_ConfigureTracking : x1: C2S=1121.27 (1121.27-1121.27), S2C=6.62583 (6.62583-6.62583), RTT=15214.4 (15214.4-15214.4), Runtime=14086.5 (14086.5-14086.5), IPC=1127.9 (1127.9-1127.9) (microseconds) C2Ssize=46 (46-46), S2Csize=25 (25-25) (bytes)
+[2016.01.23-18.46.11:771][756]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.01.23-18.46.11:803][756]PIE: New page: PIE session: Minimal_Default (Jan 23, 2016, 8:46:11 AM)
+[2016.01.23-18.46.11:807][756]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.01.23-18.46.11:821][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014168s)
+[2016.01.23-18.46.11:822][756]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.23-18.46.11:822][756]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2016.01.23-18.46.11:823][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018747s)
+[2016.01.23-18.46.11:851][756]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.23-18.46.11:859][756]LogInit: FAudioDevice initialized.
+[2016.01.23-18.46.11:951][756]LogWorld: Game class is 'GameMode'
+[2016.01.23-18.46.11:993][756]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.01.23-13.46.11
+[2016.01.23-18.46.11:993][756]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-18.46.11:993][756]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-18.46.11:993][756]LogWorld: Bringing up level for play took: 0.002660
+[2016.01.23-18.46.12:102][756]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.063
+[2016.01.23-18.46.12:103][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [SwapChain] Created swapchain of type 'DirectDisplaySwapChain' provided by 'NVidia'
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [DirectDisplaySwapChain] Initialize
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: WARNING: [CameraTimeSynchronizer] out of sync. Exposure Delta = 0.0 ms, cameraDelta = 16.7 ms.
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [CameraTimeSynchronizer] Repeated exposure time: 1008.0045 1008.0045
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [ExternalCamera] Skipped 2 frames (16643 -> 16646): Req time: 0.000000, Current CT: -1.000000
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [ExternalCamera] Skipped 7 frames (16646 -> 16654): Req time: 0.000000, Current CT: -1.000000
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [ExternalCamera] Skipped 7 frames (16654 -> 16662): Req time: 0.000000, Current CT: -1.000000
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [ExternalCamera] Skipped 6 frames (16662 -> 16669): Req time: 0.000000, Current CT: -1.000000
+
+[2016.01.23-18.46.12:907][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [Sensor2Impl] Lost 396 IMU samples: 397804 2 398
+
+[2016.01.23-18.46.12:907][756]OCULUS: Error: 01/23/16 18:46:12: [IPC] WARNING: Overhead alert threshold exceeded for Compositor_Create : x1: C2S=1129.4 (1129.4-1129.4), S2C=9.3364 (9.3364-9.3364), RTT=735111 (735111-735111), Runtime=733972 (733972-733972), IPC=1138.74 (1138.74-1138.74) (microseconds) C2Ssize=100 (100-100), S2Csize=52 (52-52) (bytes)
+[2016.01.23-18.46.12:955][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [CameraTimeSynchronizer] successfully synchronized.
+
+[2016.01.23-18.46.12:955][756]OCULUS: Info: 01/23/16 18:46:12: [From Service] 01/23/16 18:46:12: [ExternalCamera] Skipped 1 frames (16674 -> 16676): Req time: 0.000000, Current CT: 1008.754519
+
+[2016.01.23-18.46.12:955][756]OCULUS: Error: 01/23/16 18:46:12: [IPC] WARNING: Overhead alert threshold exceeded for Compositor_TextureSet_Create : x1: C2S=30649 (30649-30649), S2C=8.43288 (8.43288-8.43288), RTT=48232.2 (48232.2-48232.2), Runtime=17574.7 (17574.7-17574.7), IPC=30657.4 (30657.4-30657.4) (microseconds) C2Ssize=69 (69-69), S2Csize=33 (33-33) (bytes)
+[2016.01.23-18.46.12:955][756]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.01.23-18.46.13:153][757]OCULUS: Info: 01/23/16 18:46:12: [IPC] Call Stats for Compositor_CreateMirror : x1: C2S=13.854, S2C=2.40939, Runtime=267.744 (microseconds) C2Ssize=48, S2Csize=25 (bytes)
+
+[2016.01.23-18.46.13:153][757]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2016.01.23-18.46.13:153][757]LogRenderer: Reallocating scene render targets to support 2388x1464 (Frame:9595).
+[2016.01.23-18.46.13:159][757]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.46.13:203][758]OCULUS: Error: 01/23/16 18:46:13: [IPC] WARNING: Overhead alert threshold exceeded for Compositor_EndFrame : x1: C2S=808.352 (808.352-808.352), S2C=12.047 (12.047-12.047), RTT=47819.2 (47819.2-47819.2), Runtime=46998.8 (46998.8-46998.8), IPC=820.399 (820.399-820.399) (microseconds) C2Ssize=995 (995-995), S2Csize=89 (89-89) (bytes)
+[2016.01.23-18.46.13:433][758]OCULUS: Info: 01/23/16 18:46:13: [From Service] 01/23/16 18:46:13: [Sensor2Impl] Lost 14 IMU samples: 1999 2 16
+
+[2016.01.23-18.46.13:700][761]OCULUS: Info: 01/23/16 18:46:13: [From Service] 01/23/16 18:46:13: [Sensor2Impl] Lost 2 IMU samples: 3998 2 4
+
+[2016.01.23-18.46.14:167][787]OCULUS: Info: 01/23/16 18:46:14: [From Service] 01/23/16 18:46:14: [Sensor2Impl] Lost 2 IMU samples: 1999 2 4
+
+[2016.01.23-18.46.14:447][803]OCULUS: Info: 01/23/16 18:46:14: [From Service] 01/23/16 18:46:14: [Sensor2Impl] Lost 2 IMU samples: 3998 2 4
+
+[2016.01.23-18.46.18:205][ 17]OCULUS: Info: 01/23/16 18:46:18: [From Service] 01/23/16 18:46:18: 
+Camera Aligned with Gravity: change 7.25 deg about (0.71, -0.03, 0.70),  7.3 mm, confidence 38.7
+
+[2016.01.23-18.46.18:226][ 17]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.23-18.46.18:719][ 51]LogHMD:Warning: Lost Vision Tracking
+[2016.01.23-18.46.18:880][ 61]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.23-18.46.19:488][ 97]OCULUS: Info: 01/23/16 18:46:19: [From Service] 01/23/16 18:46:19: 
+Camera Aligned with Gravity: change 5.19 deg about (-0.95, 0.01, -0.30),  5.2 mm, confidence 51.7
+
+[2016.01.23-18.46.19:889][119]OCULUS: Info: 01/23/16 18:46:19: [From Service] 01/23/16 18:46:19: 
+Camera Aligned with Gravity: change 1.65 deg about (-1.00, -0.00, -0.06),  1.6 mm, confidence 16.7
+
+[2016.01.23-18.46.20:746][169]LogHMD:Warning: Lost Vision Tracking
+[2016.01.23-18.46.21:333][202]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.23-18.46.22:226][253]LogHMD:Warning: Lost Vision Tracking
+[2016.01.23-18.46.22:546][270]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.23-18.46.23:203][307]OCULUS: Error: 01/23/16 18:46:23: [IPC] WARNING: Overhead alert threshold exceeded for Compositor_EndFrame : x549: C2S=489.294 (15.9622-3696.01), S2C=10.2728 (3.91527-780.945), RTT=4999.74 (197.269-17234.7), Runtime=4500.18 (163.236-16793.5), IPC=499.567 (23.4916-3707.15) (microseconds) C2Ssize=995 (995-995), S2Csize=89 (89-89) (bytes)
+[2016.01.23-18.46.25:723][454]OCULUS: Info: 01/23/16 18:46:25: [From Service] 01/23/16 18:46:25: 
+Camera Aligned with Gravity: change 3.86 deg about (-0.84, -0.03, -0.54),  3.9 mm, confidence 41.9
+
+[2016.01.23-18.46.33:215][880]OCULUS: Error: 01/23/16 18:46:33: [IPC] WARNING: Overhead alert threshold exceeded for Compositor_EndFrame : x573: C2S=487.628 (15.9622-3288.22), S2C=9.15559 (4.21644-271.057), RTT=5105.39 (405.381-39774.3), Runtime=4608.61 (240.337-39536.3), IPC=496.784 (24.9975-3298.76) (microseconds) C2Ssize=995 (995-995), S2Csize=89 (89-89) (bytes)
+[2016.01.23-18.46.43:217][444]OCULUS: Error: 01/23/16 18:46:43: [IPC] WARNING: Overhead alert threshold exceeded for Compositor_EndFrame : x564: C2S=524.52 (15.9622-4265.83), S2C=9.83035 (3.91527-943.278), RTT=5299.94 (185.523-23922.6), Runtime=4765.59 (161.128-23585), IPC=534.35 (21.3834-4275.77) (microseconds) C2Ssize=995 (995-995), S2Csize=89 (89-89) (bytes)
+[2016.01.23-18.46.49:746][771]LogHMD:Warning: Lost Vision Tracking
+[2016.01.23-18.46.53:243][961]OCULUS: Error: 01/23/16 18:46:53: [IPC] WARNING: Overhead alert threshold exceeded for Compositor_EndFrame : x517: C2S=422.14 (15.3599-3713.48), S2C=7.88296 (4.21644-65.3548), RTT=6860.08 (189.439-80519.2), Runtime=6430.06 (157.213-80421.1), IPC=430.023 (21.3834-3723.42) (microseconds) C2Ssize=995 (995-995), S2Csize=89 (89-89) (bytes)
+[2016.01.23-18.46.59:693][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.23-18.46.59:693][166]OCULUS: Info: 01/23/16 18:46:59: [IPC] Call Stats for Compositor_DestroyMirror : x1: C2S=12.3481, S2C=4.81879, Runtime=53.609 (microseconds) C2Ssize=33, S2Csize=25 (bytes)
+
+[2016.01.23-18.46.59:693][166]LogHMD: Freeing textureSet 0x00000049CF413780
+[2016.01.23-18.46.59:693][166]OCULUS: Info: 01/23/16 18:46:59: [IPC] Call Stats for Compositor_TextureSet_Destroy : x1: C2S=4.81879, S2C=6.02348, Runtime=213.834 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.01.23-18.46.59:694][166]OCULUS: Info: 01/23/16 18:46:59: [IPC] Call Stats for Compositor_Destroy : x1: C2S=84.63, S2C=3.61409, Runtime=785.462 (microseconds) C2Ssize=27, S2Csize=25 (bytes)
+
+[2016.01.23-18.46.59:701][166]OCULUS: Info: 01/23/16 18:46:59: [IPC] Call Stats for Hmd_Release : x1: C2S=4.51761, S2C=43.6703, Runtime=6449.65 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.01.23-18.46.59:734][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.23-18.46.59:762][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000498B967880
+[2016.01.23-18.47.01:600][174]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 596/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:06: [From Service] 01/23/16 18:47:06: [ExternalCamera] Skipped 1 frames (19899 -> 19901): Req time: 1062.502696, Current CT: 1062.502698
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:06: [From Service] 01/23/16 18:47:06: [ExternalCamera] Skipped 9 frames (19901 -> 19911): Req time: 1062.669358, Current CT: 1062.669358
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:06: [From Service] 01/23/16 18:47:06: [ExternalCamera] Skipped 6 frames (19911 -> 19918): Req time: 1062.786020, Current CT: 1062.786021
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:07: [From Service] 01/23/16 18:47:07: [ExternalCamera] Skipped 4 frames (19918 -> 19923): Req time: 1062.869351, Current CT: 1062.869352
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:07: [From Service] 01/23/16 18:47:07: [ExternalCamera] Skipped 1 frames (19941 -> 19943): Req time: 1063.202683, Current CT: 1063.202676
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:07: [From Service] 01/23/16 18:47:07: [ExternalCamera] Skipped 11 frames (19943 -> 19955): Req time: 1063.402668, Current CT: 1063.402672
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:07: [From Service] 01/23/16 18:47:07: [ExternalCamera] Skipped 21 frames (19955 -> 19977): Req time: 1063.769324, Current CT: 1063.769342
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:08: [From Service] 01/23/16 18:47:08: [ExternalCamera] Skipped 11 frames (19977 -> 19989): Req time: 1063.969334, Current CT: 1063.969332
+
+[2016.01.23-18.47.08:298][514]OCULUS: Info: 01/23/16 18:47:08: [From Service] 01/23/16 18:47:08: [ExternalCamera] Skipped 4 frames (19989 -> 19994): Req time: 1064.052662, Current CT: 1064.052656
+
+[2016.01.23-18.47.09:294][517]OCULUS: Info: 01/23/16 18:47:09: [From Service] 01/23/16 18:47:09: [ExternalCamera] Skipped 1 frames (20041 -> 20043): Req time: 1064.869308, Current CT: 1064.869308
+
+[2016.01.23-18.47.11:283][522]OCULUS: Info: 01/23/16 18:47:10: [From Service] 01/23/16 18:47:10: [ExternalCamera] Skipped 1 frames (20145 -> 20147): Req time: 1066.602571, Current CT: 1066.602550
+
+[2016.01.23-18.47.11:283][522]OCULUS: Info: 01/23/16 18:47:11: [From Service] 01/23/16 18:47:11: [ExternalCamera] Skipped 2 frames (20160 -> 20163): Req time: 1066.869204, Current CT: 1066.869208
+
+[2016.01.23-18.47.11:283][522]OCULUS: Info: 01/23/16 18:47:11: [From Service] 01/23/16 18:47:11: [ExternalCamera] Skipped 7 frames (20163 -> 20171): Req time: 1067.002536, Current CT: 1067.002531
+
+[2016.01.23-18.47.11:313][523]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:20: [From Service] 01/23/16 18:47:20: [ExternalCamera] Skipped 1 frames (20722 -> 20724): Req time: 1076.218808, Current CT: 1076.218808
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:20: [From Service] 01/23/16 18:47:20: [ExternalCamera] Skipped 1 frames (20724 -> 20726): Req time: 1076.252140, Current CT: 1076.252148
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:20: [From Service] 01/23/16 18:47:20: [ExternalCamera] Skipped 1 frames (20727 -> 20729): Req time: 1076.302138, Current CT: 1076.302162
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:20: [From Service] 01/23/16 18:47:20: [ExternalCamera] Skipped 14 frames (20729 -> 20744): Req time: 1076.552152, Current CT: 1076.552131
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:20: [From Service] 01/23/16 18:47:20: [ExternalCamera] Skipped 10 frames (20744 -> 20755): Req time: 1076.735457, Current CT: 1076.735456
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:21: [From Service] 01/23/16 18:47:21: [ExternalCamera] Skipped 10 frames (20755 -> 20766): Req time: 1076.918782, Current CT: 1076.918782
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:21: [From Service] 01/23/16 18:47:21: [ExternalCamera] Skipped 11 frames (20766 -> 20778): Req time: 1077.118774, Current CT: 1077.118774
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:21: [From Service] 01/23/16 18:47:21: [ExternalCamera] Skipped 8 frames (20778 -> 20787): Req time: 1077.268768, Current CT: 1077.268770
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:21: [From Service] 01/23/16 18:47:21: [ExternalCamera] Skipped 1 frames (20811 -> 20813): Req time: 1077.702091, Current CT: 1077.702095
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:22: [From Service] 01/23/16 18:47:22: [ExternalCamera] Skipped 12 frames (20813 -> 20826): Req time: 1077.918753, Current CT: 1077.918755
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:22: [From Service] 01/23/16 18:47:22: [ExternalCamera] Skipped 15 frames (20826 -> 20842): Req time: 1078.185411, Current CT: 1078.185419
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:22: [From Service] 01/23/16 18:47:22: [ExternalCamera] Skipped 1 frames (20842 -> 20844): Req time: 1078.218751, Current CT: 1078.218753
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:22: [From Service] 01/23/16 18:47:22: [ExternalCamera] Skipped 1 frames (20867 -> 20869): Req time: 1078.635416, Current CT: 1078.635420
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:22: [From Service] 01/23/16 18:47:22: [ExternalCamera] Skipped 4 frames (20869 -> 20874): Req time: 1078.718750, Current CT: 1078.718749
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:23: [From Service] 01/23/16 18:47:23: [ExternalCamera] Skipped 12 frames (20874 -> 20887): Req time: 1078.935407, Current CT: 1078.935413
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:23: [From Service] 01/23/16 18:47:23: [ExternalCamera] Skipped 10 frames (20887 -> 20898): Req time: 1079.118739, Current CT: 1079.118745
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:23: [From Service] 01/23/16 18:47:23: [ExternalCamera] Skipped 13 frames (20898 -> 20912): Req time: 1079.352069, Current CT: 1079.352077
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:23: [From Service] 01/23/16 18:47:23: [ExternalCamera] Skipped 9 frames (20912 -> 20922): Req time: 1079.518737, Current CT: 1079.518742
+
+[2016.01.23-18.47.24:155][551]OCULUS: Info: 01/23/16 18:47:23: [From Service] 01/23/16 18:47:23: [ExternalCamera] Skipped 11 frames (20922 -> 20934): Req time: 1079.718734, Current CT: 1079.718739
+
+[2016.01.23-18.47.27:859][552]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:24: [From Service] 01/23/16 18:47:24: [ExternalCamera] Skipped 1 frames (20969 -> 20971): Req time: 1080.335395, Current CT: 1080.335396
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:25: [From Service] 01/23/16 18:47:25: [ExternalCamera] Skipped 1 frames (21039 -> 21041): Req time: 1081.502007, Current CT: 1081.502006
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:26: [From Service] 01/23/16 18:47:26: [ExternalCamera] Skipped 18 frames (21041 -> 21060): Req time: 1081.818660, Current CT: 1081.818658
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:26: [From Service] 01/23/16 18:47:26: [ExternalCamera] Skipped 21 frames (21060 -> 21082): Req time: 1082.185310, Current CT: 1082.185308
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:26: [From Service] 01/23/16 18:47:26: [ExternalCamera] Skipped 18 frames (21082 -> 21101): Req time: 1082.501962, Current CT: 1082.501960
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:26: [From Service] 01/23/16 18:47:26: [ExternalCamera] Skipped 14 frames (21101 -> 21116): Req time: 1082.751950, Current CT: 1082.751952
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:27: [From Service] 01/23/16 18:47:27: [ExternalCamera] Skipped 11 frames (21116 -> 21128): Req time: 1082.951944, Current CT: 1082.951943
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:27: [From Service] 01/23/16 18:47:27: [ExternalCamera] Skipped 8 frames (21128 -> 21137): Req time: 1083.101937, Current CT: 1083.101933
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:27: [From Service] 01/23/16 18:47:27: [ExternalCamera] Skipped 1 frames (21145 -> 21147): Req time: 1083.268600, Current CT: 1083.268592
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:27: [From Service] 01/23/16 18:47:27: [ExternalCamera] Skipped 10 frames (21147 -> 21158): Req time: 1083.451918, Current CT: 1083.451920
+
+[2016.01.23-18.47.27:859][552]OCULUS: Info: 01/23/16 18:47:27: [From Service] 01/23/16 18:47:27: [ExternalCamera] Skipped 11 frames (21158 -> 21170): Req time: 1083.651912, Current CT: 1083.651911
+
+[2016.01.23-18.47.28:592][554]OCULUS: Info: 01/23/16 18:47:28: [From Service] 01/23/16 18:47:28: [ExternalCamera] Skipped 2 frames (21203 -> 21206): Req time: 1084.251883, Current CT: 1084.251884
+
+[2016.01.23-18.47.28:592][554]OCULUS: Info: 01/23/16 18:47:28: [From Service] 01/23/16 18:47:28: [ExternalCamera] Skipped 6 frames (21206 -> 21213): Req time: 1084.368546, Current CT: 1084.368547
+
+[2016.01.23-18.47.30:784][559]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.47.42:319][592]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.47.44:495][598]OCULUS: Info: 01/23/16 18:47:44: [From Service] 01/23/16 18:47:44: [ExternalCamera] Skipped 1 frames (22150 -> 22152): Req time: 1100.017987, Current CT: 1100.017987
+
+[2016.01.23-18.47.44:495][598]OCULUS: Info: 01/23/16 18:47:44: [From Service] 01/23/16 18:47:44: [ExternalCamera] Skipped 2 frames (22152 -> 22155): Req time: 1100.067985, Current CT: 1100.067985
+
+[2016.01.23-18.47.48:752][608]OCULUS: Info: 01/23/16 18:47:48: [From Service] 01/23/16 18:47:48: [ExternalCamera] Skipped 1 frames (22417 -> 22419): Req time: 1104.467873, Current CT: 1104.467873
+
+[2016.01.23-18.47.48:752][608]OCULUS: Info: 01/23/16 18:47:48: [From Service] 01/23/16 18:47:48: [ExternalCamera] Skipped 3 frames (22419 -> 22423): Req time: 1104.534537, Current CT: 1104.534535
+
+[2016.01.23-18.47.50:883][614]OCULUS: Info: 01/23/16 18:47:50: [From Service] 01/23/16 18:47:50: [ExternalCamera] Skipped 2 frames (22542 -> 22545): Req time: 1106.567816, Current CT: 1106.567759
+
+[2016.01.23-18.47.50:883][614]OCULUS: Info: 01/23/16 18:47:50: [From Service] 01/23/16 18:47:50: [ExternalCamera] Skipped 4 frames (22545 -> 22550): Req time: 1106.651089, Current CT: 1106.651099
+
+[2016.01.23-18.47.55:511][628]OCULUS: Info: 01/23/16 18:47:55: [From Service] 01/23/16 18:47:55: [ExternalCamera] Skipped 1 frames (22820 -> 22822): Req time: 1111.184220, Current CT: 1111.184222
+
+[2016.01.23-18.47.55:511][628]OCULUS: Info: 01/23/16 18:47:55: [From Service] 01/23/16 18:47:55: [ExternalCamera] Skipped 2 frames (22822 -> 22825): Req time: 1111.234220, Current CT: 1111.234221
+
+[2016.01.23-18.48.11:911][676]OCULUS: Info: 01/23/16 18:48:11: [From Service] 01/23/16 18:48:11: [ExternalCamera] Skipped 1 frames (23787 -> 23789): Req time: 1127.300416, Current CT: 1127.300417
+
+[2016.01.23-18.48.11:911][676]OCULUS: Info: 01/23/16 18:48:11: [From Service] 01/23/16 18:48:11: [ExternalCamera] Skipped 10 frames (23789 -> 23800): Req time: 1127.483743, Current CT: 1127.483744
+
+[2016.01.23-18.48.11:912][676]OCULUS: Info: 01/23/16 18:48:11: [From Service] 01/23/16 18:48:11: [ExternalCamera] Skipped 1 frames (23800 -> 23802): Req time: 1127.517076, Current CT: 1127.517075
+
+[2016.01.23-18.48.11:912][676]OCULUS: Info: 01/23/16 18:48:11: [From Service] 01/23/16 18:48:11: [ExternalCamera] Skipped 3 frames (23802 -> 23806): Req time: 1127.583739, Current CT: 1127.583741
+
+[2016.01.23-18.48.11:912][676]OCULUS: Info: 01/23/16 18:48:11: [From Service] 01/23/16 18:48:11: [ExternalCamera] Skipped 7 frames (23806 -> 23814): Req time: 1127.717069, Current CT: 1127.717068
+
+[2016.01.23-18.48.14:265][683]OCULUS: Info: 01/23/16 18:48:13: [From Service] 01/23/16 18:48:13: [ExternalCamera] Skipped 1 frames (23936 -> 23938): Req time: 1129.783648, Current CT: 1129.783647
+
+[2016.01.23-18.48.27:315][722]OCULUS: Info: 01/23/16 18:48:27: [From Service] 01/23/16 18:48:27: [ExternalCamera] Skipped 1 frames (24728 -> 24730): Req time: 1142.983211, Current CT: 1142.983226
+
+[2016.01.23-18.49.06:844][836]OCULUS: Info: 01/23/16 18:49:06: [From Service] 01/23/16 18:49:06: [ExternalCamera] Skipped 1 frames (27065 -> 27067): Req time: 1181.931859, Current CT: 1181.931878
+
+[2016.01.23-18.49.06:844][836]OCULUS: Info: 01/23/16 18:49:06: [From Service] 01/23/16 18:49:06: [ExternalCamera] Skipped 15 frames (27067 -> 27083): Req time: 1182.198534, Current CT: 1182.198515
+
+[2016.01.23-18.49.06:844][836]OCULUS: Info: 01/23/16 18:49:06: [From Service] 01/23/16 18:49:06: [ExternalCamera] Skipped 5 frames (27083 -> 27089): Req time: 1182.298511, Current CT: 1182.298512
+
+[2016.01.23-18.49.06:844][836]OCULUS: Info: 01/23/16 18:49:06: [From Service] 01/23/16 18:49:06: [ExternalCamera] Skipped 6 frames (27089 -> 27096): Req time: 1182.415174, Current CT: 1182.415177
+
+[2016.01.23-18.49.17:878][869]OCULUS: Info: 01/23/16 18:49:17: [From Service] 01/23/16 18:49:17: [ExternalCamera] Skipped 1 frames (27755 -> 27757): Req time: 1193.431453, Current CT: 1193.431450
+
+[2016.01.23-18.49.20:057][875]OCULUS: Info: 01/23/16 18:49:19: [From Service] 01/23/16 18:49:19: [ExternalCamera] Skipped 1 frames (27882 -> 27884): Req time: 1195.548052, Current CT: 1195.548052
+
+[2016.01.23-18.49.20:057][875]OCULUS: Info: 01/23/16 18:49:19: [From Service] 01/23/16 18:49:19: [ExternalCamera] Skipped 12 frames (27884 -> 27897): Req time: 1195.764710, Current CT: 1195.764706
+
+[2016.01.23-18.49.20:057][875]OCULUS: Info: 01/23/16 18:49:20: [From Service] 01/23/16 18:49:20: [ExternalCamera] Skipped 4 frames (27897 -> 27902): Req time: 1195.848036, Current CT: 1195.848034
+
+[2016.01.23-18.49.21:964][880]OCULUS: Info: 01/23/16 18:49:21: [From Service] 01/23/16 18:49:21: [ExternalCamera] Skipped 1 frames (28001 -> 28003): Req time: 1197.531287, Current CT: 1197.531287
+
+[2016.01.23-18.49.21:964][880]OCULUS: Info: 01/23/16 18:49:21: [From Service] 01/23/16 18:49:21: [ExternalCamera] Skipped 9 frames (28003 -> 28013): Req time: 1197.697947, Current CT: 1197.697946
+
+[2016.01.23-18.49.22:301][881]OCULUS: Info: 01/23/16 18:49:22: [From Service] 01/23/16 18:49:22: [ExternalCamera] Skipped 1 frames (28033 -> 28035): Req time: 1198.064596, Current CT: 1198.064600
+
+[2016.01.23-18.49.23:294][883]OCULUS: Info: 01/23/16 18:49:22: [From Service] 01/23/16 18:49:22: [ExternalCamera] Skipped 1 frames (28078 -> 28080): Req time: 1198.814569, Current CT: 1198.814570
+
+[2016.01.23-18.49.23:294][883]OCULUS: Info: 01/23/16 18:49:23: [From Service] 01/23/16 18:49:23: [ExternalCamera] Skipped 1 frames (28080 -> 28082): Req time: 1198.847902, Current CT: 1198.847903
+
+[2016.01.23-18.49.23:294][883]OCULUS: Info: 01/23/16 18:49:23: [From Service] 01/23/16 18:49:23: [ExternalCamera] Skipped 5 frames (28082 -> 28088): Req time: 1198.947899, Current CT: 1198.947909
+
+[2016.01.23-18.49.27:555][895]OCULUS: Info: 01/23/16 18:49:27: [From Service] 01/23/16 18:49:27: [ExternalCamera] Skipped 1 frames (28326 -> 28328): Req time: 1202.947767, Current CT: 1202.947767
+
+[2016.01.23-18.49.27:555][895]OCULUS: Info: 01/23/16 18:49:27: [From Service] 01/23/16 18:49:27: [ExternalCamera] Skipped 7 frames (28328 -> 28336): Req time: 1203.081095, Current CT: 1203.081095
+
+[2016.01.23-18.49.27:555][895]OCULUS: Info: 01/23/16 18:49:27: [From Service] 01/23/16 18:49:27: [ExternalCamera] Skipped 1 frames (28338 -> 28340): Req time: 1203.147760, Current CT: 1203.147759
+
+[2016.01.23-18.49.27:555][895]OCULUS: Info: 01/23/16 18:49:27: [From Service] 01/23/16 18:49:27: [ExternalCamera] Skipped 9 frames (28340 -> 28350): Req time: 1203.314419, Current CT: 1203.314419
+
+[2016.01.23-18.49.35:215][917]OCULUS: Info: 01/23/16 18:49:34: [From Service] 01/23/16 18:49:34: [ExternalCamera] Skipped 1 frames (28783 -> 28785): Req time: 1210.564130, Current CT: 1210.564130
+
+[2016.01.23-18.49.35:215][917]OCULUS: Info: 01/23/16 18:49:34: [From Service] 01/23/16 18:49:34: [ExternalCamera] Skipped 14 frames (28785 -> 28800): Req time: 1210.814120, Current CT: 1210.814111
+
+[2016.01.23-18.49.35:215][917]OCULUS: Info: 01/23/16 18:49:35: [From Service] 01/23/16 18:49:35: [ExternalCamera] Skipped 7 frames (28800 -> 28808): Req time: 1210.947439, Current CT: 1210.947440
+
+[2016.01.23-18.50.46:248][127]OCULUS: Info: 01/23/16 18:50:45: [From Service] 01/23/16 18:50:45: [ExternalCamera] Skipped 1 frames (33053 -> 33055): Req time: 1281.728335, Current CT: 1281.728335
+
+[2016.01.23-18.50.46:249][127]OCULUS: Info: 01/23/16 18:50:46: [From Service] 01/23/16 18:50:46: [ExternalCamera] Skipped 5 frames (33055 -> 33061): Req time: 1281.828331, Current CT: 1281.828332
+
+[2016.01.23-18.50.46:249][127]OCULUS: Info: 01/23/16 18:50:46: [From Service] 01/23/16 18:50:46: [ExternalCamera] Skipped 1 frames (33061 -> 33063): Req time: 1281.861664, Current CT: 1281.861663
+
+[2016.01.23-18.50.46:249][127]OCULUS: Info: 01/23/16 18:50:46: [From Service] 01/23/16 18:50:46: [ExternalCamera] Skipped 3 frames (33063 -> 33067): Req time: 1281.928327, Current CT: 1281.928327
+
+[2016.01.23-18.50.46:249][127]OCULUS: Info: 01/23/16 18:50:46: [From Service] 01/23/16 18:50:46: [ExternalCamera] Skipped 7 frames (33067 -> 33075): Req time: 1282.061655, Current CT: 1282.061657
+
+[2016.01.23-18.50.58:145][158]OCULUS: Info: 01/23/16 18:50:57: [From Service] 01/23/16 18:50:57: [ExternalCamera] Skipped 1 frames (33745 -> 33747): Req time: 1293.261317, Current CT: 1293.261319
+
+[2016.01.23-18.50.58:145][158]OCULUS: Info: 01/23/16 18:50:57: [From Service] 01/23/16 18:50:57: [ExternalCamera] Skipped 10 frames (33747 -> 33758): Req time: 1293.444645, Current CT: 1293.444649
+
+[2016.01.23-18.50.58:145][158]OCULUS: Info: 01/23/16 18:50:57: [From Service] 01/23/16 18:50:57: [ExternalCamera] Skipped 3 frames (33758 -> 33762): Req time: 1293.511313, Current CT: 1293.511316
+
+[2016.01.23-18.50.58:145][158]OCULUS: Info: 01/23/16 18:50:57: [From Service] 01/23/16 18:50:57: [ExternalCamera] Skipped 2 frames (33762 -> 33765): Req time: 1293.561314, Current CT: 1293.561316
+
+[2016.01.23-18.50.58:146][158]OCULUS: Info: 01/23/16 18:50:57: [From Service] 01/23/16 18:50:57: [ExternalCamera] Skipped 1 frames (33774 -> 33776): Req time: 1293.744647, Current CT: 1293.744653
+
+[2016.01.23-18.50.58:146][158]OCULUS: Info: 01/23/16 18:50:58: [From Service] 01/23/16 18:50:58: [ExternalCamera] Skipped 7 frames (33776 -> 33784): Req time: 1293.877981, Current CT: 1293.877982
+
+[2016.01.23-18.52.18:796][397]OCULUS: Info: 01/23/16 18:52:18: [From Service] 01/23/16 18:52:18: [ExternalCamera] Skipped 1 frames (38620 -> 38622): Req time: 1374.508507, Current CT: 1374.508506
+
+[2016.01.23-18.52.18:796][397]OCULUS: Info: 01/23/16 18:52:18: [From Service] 01/23/16 18:52:18: [ExternalCamera] Skipped 1 frames (38622 -> 38624): Req time: 1374.541838, Current CT: 1374.541838
+
+[2016.01.23-18.52.20:414][401]OCULUS: Info: 01/23/16 18:52:19: [From Service] 01/23/16 18:52:19: [ExternalCamera] Skipped 1 frames (38690 -> 38692): Req time: 1375.675125, Current CT: 1375.675118
+
+[2016.01.23-18.52.20:414][401]OCULUS: Info: 01/23/16 18:52:20: [From Service] 01/23/16 18:52:20: [ExternalCamera] Skipped 16 frames (38692 -> 38709): Req time: 1375.958440, Current CT: 1375.958455
+
+[2016.01.23-18.52.20:414][401]OCULUS: Info: 01/23/16 18:52:20: [From Service] 01/23/16 18:52:20: [ExternalCamera] Skipped 1 frames (38709 -> 38711): Req time: 1375.991787, Current CT: 1375.991775
+
+[2016.01.23-18.52.20:414][401]OCULUS: Info: 01/23/16 18:52:20: [From Service] 01/23/16 18:52:20: [ExternalCamera] Skipped 2 frames (38711 -> 38714): Req time: 1376.041773, Current CT: 1376.041773
+
+[2016.01.23-18.52.20:414][401]OCULUS: Info: 01/23/16 18:52:20: [From Service] 01/23/16 18:52:20: [ExternalCamera] Skipped 6 frames (38714 -> 38721): Req time: 1376.158435, Current CT: 1376.158457
+
+[2016.01.23-18.52.20:414][401]OCULUS: Info: 01/23/16 18:52:20: [From Service] 01/23/16 18:52:20: [ExternalCamera] Skipped 3 frames (38721 -> 38725): Req time: 1376.225121, Current CT: 1376.225133
+
+[2016.01.23-18.52.40:448][461]OCULUS: Info: 01/23/16 18:52:40: [From Service] 01/23/16 18:52:40: [ExternalCamera] Skipped 1 frames (39919 -> 39921): Req time: 1396.157739, Current CT: 1396.157746
+
+[2016.01.23-18.52.45:440][475]OCULUS: Info: 01/23/16 18:52:44: [From Service] 01/23/16 18:52:44: [ExternalCamera] Skipped 1 frames (40190 -> 40192): Req time: 1400.674233, Current CT: 1400.674233
+
+[2016.01.23-18.52.45:440][475]OCULUS: Info: 01/23/16 18:52:45: [From Service] 01/23/16 18:52:45: [ExternalCamera] Skipped 8 frames (40192 -> 40201): Req time: 1400.824227, Current CT: 1400.824225
+
+[2016.01.23-18.52.45:440][475]OCULUS: Info: 01/23/16 18:52:45: [From Service] 01/23/16 18:52:45: [ExternalCamera] Skipped 8 frames (40201 -> 40210): Req time: 1400.974219, Current CT: 1400.974217
+
+[2016.01.23-18.52.45:440][475]OCULUS: Info: 01/23/16 18:52:45: [From Service] 01/23/16 18:52:45: [ExternalCamera] Skipped 2 frames (40210 -> 40213): Req time: 1401.024215, Current CT: 1401.024214
+
+[2016.01.23-18.52.45:440][475]OCULUS: Info: 01/23/16 18:52:45: [From Service] 01/23/16 18:52:45: [ExternalCamera] Skipped 1 frames (40213 -> 40215): Req time: 1401.057546, Current CT: 1401.057545
+
+[2016.01.23-18.52.50:101][489]OCULUS: Info: 01/23/16 18:52:49: [From Service] 01/23/16 18:52:49: [ExternalCamera] Skipped 1 frames (40490 -> 40492): Req time: 1405.673992, Current CT: 1405.673993
+
+[2016.01.23-18.52.52:023][492]OCULUS: Info: 01/23/16 18:52:50: [From Service] 01/23/16 18:52:50: [ExternalCamera] Skipped 1 frames (40549 -> 40551): Req time: 1406.657277, Current CT: 1406.657276
+
+[2016.01.23-18.52.53:473][495]OCULUS: Info: 01/23/16 18:52:53: [From Service] 01/23/16 18:52:53: [ExternalCamera] Skipped 1 frames (40687 -> 40689): Req time: 1408.957201, Current CT: 1408.957201
+
+[2016.01.23-18.52.58:242][509]OCULUS: Info: 01/23/16 18:52:58: [From Service] 01/23/16 18:52:58: [ExternalCamera] Skipped 2 frames (40991 -> 40994): Req time: 1414.040468, Current CT: 1414.040467
+
+[2016.01.23-18.53.06:905][535]OCULUS: Info: 01/23/16 18:53:06: [From Service] 01/23/16 18:53:06: [ExternalCamera] Skipped 2 frames (41496 -> 41499): Req time: 1422.456835, Current CT: 1422.456833
+
+[2016.01.23-18.53.06:905][535]OCULUS: Info: 01/23/16 18:53:06: [From Service] 01/23/16 18:53:06: [ExternalCamera] Skipped 3 frames (41499 -> 41503): Req time: 1422.523497, Current CT: 1422.523497
+
+[2016.01.23-18.53.07:945][538]OCULUS: Info: 01/23/16 18:53:07: [From Service] 01/23/16 18:53:07: [ExternalCamera] Skipped 1 frames (41575 -> 41577): Req time: 1423.756788, Current CT: 1423.756790
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:08: [From Service] 01/23/16 18:53:08: [ExternalCamera] Skipped 1 frames (41634 -> 41636): Req time: 1424.740096, Current CT: 1424.740095
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:09: [From Service] 01/23/16 18:53:09: [ExternalCamera] Skipped 5 frames (41636 -> 41642): Req time: 1424.840091, Current CT: 1424.840090
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:09: [From Service] 01/23/16 18:53:09: [ExternalCamera] Skipped 1 frames (41645 -> 41647): Req time: 1424.923419, Current CT: 1424.923419
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:09: [From Service] 01/23/16 18:53:09: [ExternalCamera] Skipped 2 frames (41647 -> 41650): Req time: 1424.973417, Current CT: 1424.973417
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:09: [From Service] 01/23/16 18:53:09: [ExternalCamera] Skipped 1 frames (41667 -> 41669): Req time: 1425.290067, Current CT: 1425.290067
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:09: [From Service] 01/23/16 18:53:09: [ExternalCamera] Skipped 6 frames (41669 -> 41676): Req time: 1425.406729, Current CT: 1425.406734
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:09: [From Service] 01/23/16 18:53:09: [ExternalCamera] Skipped 11 frames (41676 -> 41688): Req time: 1425.606726, Current CT: 1425.606717
+
+[2016.01.23-18.53.09:867][541]OCULUS: Info: 01/23/16 18:53:09: [From Service] 01/23/16 18:53:09: [ExternalCamera] Skipped 2 frames (41688 -> 41691): Req time: 1425.656715, Current CT: 1425.656713
+
+[2016.01.23-18.53.10:538][543]OCULUS: Info: 01/23/16 18:53:10: [From Service] 01/23/16 18:53:10: [ExternalCamera] Skipped 2 frames (41714 -> 41717): Req time: 1426.090039, Current CT: 1426.090027
+
+[2016.01.23-18.53.10:538][543]OCULUS: Info: 01/23/16 18:53:10: [From Service] 01/23/16 18:53:10: [ExternalCamera] Skipped 13 frames (41717 -> 41731): Req time: 1426.323351, Current CT: 1426.323350
+
+[2016.01.23-18.53.10:585][544]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.53.10:941][545]OCULUS: Info: 01/23/16 18:53:10: [From Service] 01/23/16 18:53:10: [ExternalCamera] Skipped 1 frames (41748 -> 41750): Req time: 1426.640007, Current CT: 1426.640011
+
+[2016.01.23-18.53.10:942][545]OCULUS: Info: 01/23/16 18:53:10: [From Service] 01/23/16 18:53:10: [ExternalCamera] Skipped 5 frames (41750 -> 41756): Req time: 1426.740007, Current CT: 1426.740005
+
+[2016.01.23-18.53.12:251][548]OCULUS: Info: 01/23/16 18:53:11: [From Service] 01/23/16 18:53:11: [ExternalCamera] Skipped 1 frames (41814 -> 41816): Req time: 1427.739986, Current CT: 1427.739987
+
+[2016.01.23-18.53.12:251][548]OCULUS: Info: 01/23/16 18:53:12: [From Service] 01/23/16 18:53:12: [ExternalCamera] Skipped 8 frames (41816 -> 41825): Req time: 1427.889981, Current CT: 1427.889986
+
+[2016.01.23-18.53.12:251][548]OCULUS: Info: 01/23/16 18:53:12: [From Service] 01/23/16 18:53:12: [ExternalCamera] Skipped 6 frames (41825 -> 41832): Req time: 1428.006648, Current CT: 1428.006653
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:22: [From Service] 01/23/16 18:53:22: [ExternalCamera] Skipped 1 frames (42419 -> 42421): Req time: 1437.822948, Current CT: 1437.822948
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:22: [From Service] 01/23/16 18:53:22: [ExternalCamera] Skipped 12 frames (42421 -> 42434): Req time: 1438.039606, Current CT: 1438.039603
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:22: [From Service] 01/23/16 18:53:22: [ExternalCamera] Skipped 6 frames (42434 -> 42441): Req time: 1438.156265, Current CT: 1438.156263
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:22: [From Service] 01/23/16 18:53:22: [ExternalCamera] Skipped 10 frames (42441 -> 42452): Req time: 1438.339589, Current CT: 1438.339586
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:22: [From Service] 01/23/16 18:53:22: [ExternalCamera] Skipped 20 frames (42452 -> 42473): Req time: 1438.689572, Current CT: 1438.689568
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:23: [From Service] 01/23/16 18:53:23: [ExternalCamera] Skipped 23 frames (42473 -> 42497): Req time: 1439.089552, Current CT: 1439.089560
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:23: [From Service] 01/23/16 18:53:23: [ExternalCamera] Skipped 19 frames (42497 -> 42517): Req time: 1439.422880, Current CT: 1439.422893
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:23: [From Service] 01/23/16 18:53:23: [ExternalCamera] Skipped 14 frames (42517 -> 42532): Req time: 1439.672883, Current CT: 1439.672889
+
+[2016.01.23-18.53.24:091][577]OCULUS: Info: 01/23/16 18:53:23: [From Service] 01/23/16 18:53:23: [ExternalCamera] Skipped 7 frames (42532 -> 42540): Req time: 1439.806217, Current CT: 1439.806221
+
+[2016.01.23-18.53.35:852][610]OCULUS: Info: 01/23/16 18:53:34: [From Service] 01/23/16 18:53:34: [ExternalCamera] Skipped 1 frames (43196 -> 43198): Req time: 1450.772558, Current CT: 1450.772557
+
+[2016.01.23-18.53.35:852][610]OCULUS: Info: 01/23/16 18:53:35: [From Service] 01/23/16 18:53:35: [ExternalCamera] Skipped 3 frames (43198 -> 43202): Req time: 1450.839221, Current CT: 1450.839220
+
+[2016.01.23-18.53.35:974][611]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.53.39:271][621]OCULUS: Info: 01/23/16 18:53:39: [From Service] 01/23/16 18:53:39: [ExternalCamera] Skipped 1 frames (43448 -> 43450): Req time: 1454.972395, Current CT: 1454.972415
+
+[2016.01.23-18.53.39:271][621]OCULUS: Info: 01/23/16 18:53:39: [From Service] 01/23/16 18:53:39: [ExternalCamera] Skipped 4 frames (43450 -> 43455): Req time: 1455.055745, Current CT: 1455.055726
+
+[2016.01.23-18.53.41:920][629]OCULUS: Info: 01/23/16 18:53:41: [From Service] 01/23/16 18:53:41: [ExternalCamera] Skipped 1 frames (43611 -> 43613): Req time: 1457.688958, Current CT: 1457.688958
+
+[2016.01.23-18.53.53:691][662]OCULUS: Info: 01/23/16 18:53:53: [From Service] 01/23/16 18:53:53: [ExternalCamera] Skipped 1 frames (44308 -> 44310): Req time: 1469.305209, Current CT: 1469.305210
+
+[2016.01.23-18.53.53:691][662]OCULUS: Info: 01/23/16 18:53:53: [From Service] 01/23/16 18:53:53: [ExternalCamera] Skipped 4 frames (44310 -> 44315): Req time: 1469.388540, Current CT: 1469.388541
+
+[2016.01.23-18.54.05:068][696]OCULUS: Info: 01/23/16 18:54:04: [From Service] 01/23/16 18:54:04: [ExternalCamera] Skipped 1 frames (44998 -> 45000): Req time: 1480.804878, Current CT: 1480.804878
+
+[2016.01.23-18.54.05:074][696]OCULUS: Info: 01/23/16 18:54:05: [From Service] 01/23/16 18:54:05: [ExternalCamera] Skipped 1 frames (45003 -> 45005): Req time: 1480.888206, Current CT: 1480.888206
+
+[2016.01.23-18.54.48:247][824]OCULUS: Info: 01/23/16 18:54:47: [From Service] 01/23/16 18:54:47: [ExternalCamera] Skipped 2 frames (47553 -> 47556): Req time: 1523.403363, Current CT: 1523.403362
+
+[2016.01.23-18.54.48:247][824]OCULUS: Info: 01/23/16 18:54:47: [From Service] 01/23/16 18:54:47: [ExternalCamera] Skipped 12 frames (47556 -> 47569): Req time: 1523.620020, Current CT: 1523.620017
+
+[2016.01.23-18.54.48:247][824]OCULUS: Info: 01/23/16 18:54:47: [From Service] 01/23/16 18:54:47: [ExternalCamera] Skipped 4 frames (47569 -> 47574): Req time: 1523.703347, Current CT: 1523.703346
+
+[2016.01.23-18.54.48:247][824]OCULUS: Info: 01/23/16 18:54:47: [From Service] 01/23/16 18:54:47: [ExternalCamera] Skipped 3 frames (47574 -> 47578): Req time: 1523.770010, Current CT: 1523.770009
+
+[2016.01.23-18.54.48:247][824]OCULUS: Info: 01/23/16 18:54:48: [From Service] 01/23/16 18:54:48: [ExternalCamera] Skipped 5 frames (47578 -> 47584): Req time: 1523.870005, Current CT: 1523.870012
+
+[2016.01.23-18.54.48:247][824]OCULUS: Info: 01/23/16 18:54:48: [From Service] 01/23/16 18:54:48: [ExternalCamera] Skipped 9 frames (47584 -> 47594): Req time: 1524.036672, Current CT: 1524.036661
+
+[2016.01.23-18.54.48:976][826]OCULUS: Info: 01/23/16 18:54:48: [From Service] 01/23/16 18:54:48: [ExternalCamera] Skipped 1 frames (47625 -> 47627): Req time: 1524.586642, Current CT: 1524.586634
+
+[2016.01.23-18.54.48:976][826]OCULUS: Info: 01/23/16 18:54:48: [From Service] 01/23/16 18:54:48: [ExternalCamera] Skipped 10 frames (47627 -> 47638): Req time: 1524.769960, Current CT: 1524.769957
+
+[2016.01.23-18.54.51:013][832]OCULUS: Info: 01/23/16 18:54:51: [From Service] 01/23/16 18:54:51: [ExternalCamera] Skipped 1 frames (47759 -> 47761): Req time: 1526.819919, Current CT: 1526.819913
+
+[2016.01.23-18.54.52:685][837]OCULUS: Info: 01/23/16 18:54:52: [From Service] 01/23/16 18:54:52: [ExternalCamera] Skipped 2 frames (47848 -> 47851): Req time: 1528.319878, Current CT: 1528.319886
+
+[2016.01.23-18.54.52:685][837]OCULUS: Info: 01/23/16 18:54:52: [From Service] 01/23/16 18:54:52: [ExternalCamera] Skipped 5 frames (47851 -> 47857): Req time: 1528.419882, Current CT: 1528.419878
+
+[2016.01.23-18.54.55:744][844]OCULUS: Info: 01/23/16 18:54:55: [From Service] 01/23/16 18:54:55: [ExternalCamera] Skipped 2 frames (48035 -> 48038): Req time: 1531.436523, Current CT: 1531.436496
+
+[2016.01.23-18.54.57:284][847]OCULUS: Info: 01/23/16 18:54:56: [From Service] 01/23/16 18:54:56: [ExternalCamera] Skipped 1 frames (48087 -> 48089): Req time: 1532.286453, Current CT: 1532.286447
+
+[2016.01.23-18.54.57:284][847]OCULUS: Info: 01/23/16 18:54:56: [From Service] 01/23/16 18:54:56: [ExternalCamera] Skipped 2 frames (48089 -> 48092): Req time: 1532.336445, Current CT: 1532.336444
+
+[2016.01.23-18.54.57:284][847]OCULUS: Info: 01/23/16 18:54:56: [From Service] 01/23/16 18:54:56: [ExternalCamera] Skipped 1 frames (48103 -> 48105): Req time: 1532.553098, Current CT: 1532.553097
+
+[2016.01.23-18.54.57:284][847]OCULUS: Info: 01/23/16 18:54:56: [From Service] 01/23/16 18:54:56: [ExternalCamera] Skipped 1 frames (48105 -> 48107): Req time: 1532.586429, Current CT: 1532.586446
+
+[2016.01.23-18.54.57:284][847]OCULUS: Info: 01/23/16 18:54:57: [From Service] 01/23/16 18:54:57: [ExternalCamera] Skipped 1 frames (48133 -> 48135): Req time: 1533.053067, Current CT: 1533.053092
+
+[2016.01.23-18.54.57:513][848]OCULUS: Info: 01/23/16 18:54:57: [From Service] 01/23/16 18:54:57: [ExternalCamera] Skipped 1 frames (48139 -> 48141): Req time: 1533.153089, Current CT: 1533.153060
+
+[2016.01.23-18.54.57:514][848]OCULUS: Info: 01/23/16 18:54:57: [From Service] 01/23/16 18:54:57: [ExternalCamera] Skipped 7 frames (48141 -> 48149): Req time: 1533.286388, Current CT: 1533.286386
+
+[2016.01.23-18.54.57:514][848]OCULUS: Info: 01/23/16 18:54:57: [From Service] 01/23/16 18:54:57: [ExternalCamera] Skipped 1 frames (48149 -> 48151): Req time: 1533.319718, Current CT: 1533.319747
+
+[2016.01.23-18.55.07:460][878]OCULUS: Info: 01/23/16 18:55:07: [From Service] 01/23/16 18:55:07: [ExternalCamera] Skipped 1 frames (48733 -> 48735): Req time: 1543.052718, Current CT: 1543.052719
+
+[2016.01.23-18.55.09:638][884]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.55.15:014][898]OCULUS: Info: 01/23/16 18:55:14: [From Service] 01/23/16 18:55:14: [ExternalCamera] Skipped 2 frames (49151 -> 49154): Req time: 1550.035805, Current CT: 1550.035804
+
+[2016.01.23-18.55.15:015][898]OCULUS: Info: 01/23/16 18:55:14: [From Service] 01/23/16 18:55:14: [ExternalCamera] Skipped 11 frames (49154 -> 49166): Req time: 1550.235796, Current CT: 1550.235792
+
+[2016.01.23-18.55.15:015][898]OCULUS: Info: 01/23/16 18:55:14: [From Service] 01/23/16 18:55:14: [ExternalCamera] Skipped 10 frames (49166 -> 49177): Req time: 1550.419118, Current CT: 1550.419115
+
+[2016.01.23-18.55.15:015][898]OCULUS: Info: 01/23/16 18:55:14: [From Service] 01/23/16 18:55:14: [ExternalCamera] Skipped 7 frames (49177 -> 49185): Req time: 1550.552443, Current CT: 1550.552440
+
+[2016.01.23-18.55.15:015][898]OCULUS: Info: 01/23/16 18:55:14: [From Service] 01/23/16 18:55:14: [ExternalCamera] Skipped 10 frames (49185 -> 49196): Req time: 1550.735766, Current CT: 1550.735765
+
+[2016.01.23-18.55.15:015][898]OCULUS: Info: 01/23/16 18:55:15: [From Service] 01/23/16 18:55:15: [ExternalCamera] Skipped 4 frames (49196 -> 49201): Req time: 1550.819095, Current CT: 1550.819093
+
+[2016.01.23-18.55.16:106][901]OCULUS: Info: 01/23/16 18:55:15: [From Service] 01/23/16 18:55:15: [ExternalCamera] Skipped 1 frames (49249 -> 49251): Req time: 1551.652380, Current CT: 1551.652380
+
+[2016.01.23-18.55.24:829][925]OCULUS: Info: 01/23/16 18:55:23: [From Service] 01/23/16 18:55:23: [ExternalCamera] Skipped 1 frames (49735 -> 49737): Req time: 1559.752130, Current CT: 1559.752132
+
+[2016.01.23-18.55.24:829][925]OCULUS: Info: 01/23/16 18:55:24: [From Service] 01/23/16 18:55:24: [ExternalCamera] Skipped 2 frames (49740 -> 49743): Req time: 1559.852130, Current CT: 1559.852132
+
+[2016.01.23-18.55.24:829][925]OCULUS: Info: 01/23/16 18:55:24: [From Service] 01/23/16 18:55:24: [ExternalCamera] Skipped 9 frames (49743 -> 49753): Req time: 1560.018792, Current CT: 1560.018799
+
+[2016.01.23-18.55.24:829][925]OCULUS: Info: 01/23/16 18:55:24: [From Service] 01/23/16 18:55:24: [ExternalCamera] Skipped 8 frames (49753 -> 49762): Req time: 1560.168793, Current CT: 1560.168798
+
+[2016.01.23-18.55.24:862][926]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 597/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.23-18.55.44:329][984]OCULUS: Info: 01/23/16 18:55:44: [From Service] 01/23/16 18:55:44: [ExternalCamera] Skipped 1 frames (50951 -> 50953): Req time: 1580.018194, Current CT: 1580.018195
+
+[2016.01.23-18.55.44:599][985]OCULUS: Info: 01/23/16 18:55:44: [From Service] 01/23/16 18:55:44: [ExternalCamera] Skipped 7 frames (50953 -> 50961): Req time: 1580.151523, Current CT: 1580.151525
+
+[2016.01.23-18.55.53:389][ 11]OCULUS: Info: 01/23/16 18:55:53: [From Service] 01/23/16 18:55:53: [ExternalCamera] Skipped 1 frames (51479 -> 51481): Req time: 1588.817845, Current CT: 1588.817844
+
+[2016.01.23-18.55.53:389][ 11]OCULUS: Info: 01/23/16 18:55:53: [From Service] 01/23/16 18:55:53: [ExternalCamera] Skipped 18 frames (51481 -> 51500): Req time: 1589.134498, Current CT: 1589.134492
+
+[2016.01.23-18.55.53:389][ 11]OCULUS: Info: 01/23/16 18:55:53: [From Service] 01/23/16 18:55:53: [ExternalCamera] Skipped 3 frames (51500 -> 51504): Req time: 1589.201156, Current CT: 1589.201154
+
+[2016.01.23-18.56.48:030][171]OCULUS: Info: 01/23/16 18:56:47: [From Service] 01/23/16 18:56:47: [ExternalCamera] Skipped 1 frames (54755 -> 54757): Req time: 1643.415889, Current CT: 1643.415889
+
+[2016.01.23-18.56.48:030][171]OCULUS: Info: 01/23/16 18:56:47: [From Service] 01/23/16 18:56:47: [ExternalCamera] Skipped 7 frames (54757 -> 54765): Req time: 1643.549217, Current CT: 1643.549216
+
+[2016.01.23-18.56.48:030][171]OCULUS: Info: 01/23/16 18:56:47: [From Service] 01/23/16 18:56:47: [ExternalCamera] Skipped 6 frames (54765 -> 54772): Req time: 1643.665878, Current CT: 1643.665874
+
+[2016.01.23-18.56.48:030][171]OCULUS: Info: 01/23/16 18:56:47: [From Service] 01/23/16 18:56:47: [ExternalCamera] Skipped 5 frames (54772 -> 54778): Req time: 1643.765870, Current CT: 1643.765869
+
+[2016.01.23-18.56.48:030][171]OCULUS: Info: 01/23/16 18:56:48: [From Service] 01/23/16 18:56:48: [ExternalCamera] Skipped 3 frames (54778 -> 54782): Req time: 1643.832533, Current CT: 1643.832532
+
+[2016.01.23-18.57.23:675][273]OCULUS: Info: 01/23/16 18:57:23: [From Service] 01/23/16 18:57:23: [ExternalCamera] Skipped 1 frames (56889 -> 56891): Req time: 1678.981352, Current CT: 1678.981352
+
+[2016.01.23-18.57.23:675][273]OCULUS: Info: 01/23/16 18:57:23: [From Service] 01/23/16 18:57:23: [ExternalCamera] Skipped 17 frames (56891 -> 56909): Req time: 1679.281340, Current CT: 1679.281334
+
+[2016.01.23-18.57.23:675][273]OCULUS: Info: 01/23/16 18:57:23: [From Service] 01/23/16 18:57:23: [ExternalCamera] Skipped 6 frames (56909 -> 56916): Req time: 1679.397996, Current CT: 1679.397998
+
+[2016.01.23-18.57.25:639][279]OCULUS: Info: 01/23/16 18:57:25: [From Service] 01/23/16 18:57:25: [ExternalCamera] Skipped 1 frames (57033 -> 57035): Req time: 1681.381255, Current CT: 1681.381255
+
+[2016.01.23-18.57.25:639][279]OCULUS: Info: 01/23/16 18:57:25: [From Service] 01/23/16 18:57:25: [ExternalCamera] Skipped 1 frames (57035 -> 57037): Req time: 1681.414587, Current CT: 1681.414587
+
+[2016.01.23-18.57.31:637][297]OCULUS: Info: 01/23/16 18:57:31: [From Service] 01/23/16 18:57:31: [ExternalCamera] Skipped 2 frames (57390 -> 57393): Req time: 1687.347739, Current CT: 1687.347770
+
+[2016.01.23-18.57.33:308][302]OCULUS: Info: 01/23/16 18:57:33: [From Service] 01/23/16 18:57:33: [ExternalCamera] Skipped 1 frames (57486 -> 57488): Req time: 1688.931023, Current CT: 1688.931024
+
+[2016.01.23-18.57.34:402][304]OCULUS: Info: 01/23/16 18:57:33: [From Service] 01/23/16 18:57:33: [ExternalCamera] Skipped 1 frames (57526 -> 57528): Req time: 1689.597671, Current CT: 1689.597670
+
+[2016.01.23-18.57.34:402][304]OCULUS: Info: 01/23/16 18:57:34: [From Service] 01/23/16 18:57:34: [ExternalCamera] Skipped 17 frames (57528 -> 57546): Req time: 1689.897658, Current CT: 1689.897652
+
+[2016.01.23-18.57.34:402][304]OCULUS: Info: 01/23/16 18:57:34: [From Service] 01/23/16 18:57:34: [ExternalCamera] Skipped 8 frames (57546 -> 57555): Req time: 1690.047646, Current CT: 1690.047644
+
+[2016.01.23-18.57.34:402][304]OCULUS: Info: 01/23/16 18:57:34: [From Service] 01/23/16 18:57:34: [ExternalCamera] Skipped 8 frames (57555 -> 57564): Req time: 1690.197638, Current CT: 1690.197636
+
+[2016.01.23-18.57.34:878][305]OCULUS: Info: 01/23/16 18:57:34: [From Service] 01/23/16 18:57:34: [ExternalCamera] Skipped 1 frames (57585 -> 57587): Req time: 1690.580948, Current CT: 1690.580948
+
+[2016.01.23-18.57.35:421][306]OCULUS: Info: 01/23/16 18:57:35: [From Service] 01/23/16 18:57:35: [ExternalCamera] Skipped 1 frames (57607 -> 57609): Req time: 1690.947596, Current CT: 1690.947596
+
+[2016.01.23-18.57.35:421][306]OCULUS: Info: 01/23/16 18:57:35: [From Service] 01/23/16 18:57:35: [ExternalCamera] Skipped 11 frames (57609 -> 57621): Req time: 1691.147588, Current CT: 1691.147609
+
+[2016.01.23-18.57.35:421][306]OCULUS: Info: 01/23/16 18:57:35: [From Service] 01/23/16 18:57:35: [ExternalCamera] Skipped 2 frames (57621 -> 57624): Req time: 1691.197607, Current CT: 1691.197587
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:35: [From Service] 01/23/16 18:57:35: [ExternalCamera] Skipped 1 frames (57638 -> 57640): Req time: 1691.464243, Current CT: 1691.464243
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:35: [From Service] 01/23/16 18:57:35: [ExternalCamera] Skipped 10 frames (57640 -> 57651): Req time: 1691.647569, Current CT: 1691.647570
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:36: [From Service] 01/23/16 18:57:36: [ExternalCamera] Skipped 10 frames (57651 -> 57662): Req time: 1691.830896, Current CT: 1691.830897
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:36: [From Service] 01/23/16 18:57:36: [ExternalCamera] Skipped 9 frames (57662 -> 57672): Req time: 1691.997557, Current CT: 1691.997560
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:36: [From Service] 01/23/16 18:57:36: [ExternalCamera] Skipped 9 frames (57672 -> 57682): Req time: 1692.164220, Current CT: 1692.164223
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:36: [From Service] 01/23/16 18:57:36: [ExternalCamera] Skipped 9 frames (57682 -> 57692): Req time: 1692.330883, Current CT: 1692.330886
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:36: [From Service] 01/23/16 18:57:36: [ExternalCamera] Skipped 6 frames (57692 -> 57699): Req time: 1692.447548, Current CT: 1692.447550
+
+[2016.01.23-18.57.36:673][307]OCULUS: Info: 01/23/16 18:57:36: [From Service] 01/23/16 18:57:36: [ExternalCamera] Skipped 1 frames (57699 -> 57701): Req time: 1692.480882, Current CT: 1692.480901
+
+[2016.01.23-18.57.39:879][313]OCULUS: Info: 01/23/16 18:57:38: [From Service] 01/23/16 18:57:38: [ExternalCamera] Skipped 1 frames (57826 -> 57828): Req time: 1694.597477, Current CT: 1694.597477
+
+[2016.01.23-18.57.39:879][313]OCULUS: Info: 01/23/16 18:57:38: [From Service] 01/23/16 18:57:38: [ExternalCamera] Skipped 11 frames (57828 -> 57840): Req time: 1694.797469, Current CT: 1694.797470
+
+[2016.01.23-18.57.39:879][313]OCULUS: Info: 01/23/16 18:57:39: [From Service] 01/23/16 18:57:39: [ExternalCamera] Skipped 11 frames (57840 -> 57852): Req time: 1694.997462, Current CT: 1694.997462
+
+[2016.01.23-18.57.39:879][313]OCULUS: Info: 01/23/16 18:57:39: [From Service] 01/23/16 18:57:39: [ExternalCamera] Skipped 8 frames (57852 -> 57861): Req time: 1695.147456, Current CT: 1695.147459
+
+[2016.01.23-18.57.39:879][313]OCULUS: Info: 01/23/16 18:57:39: [From Service] 01/23/16 18:57:39: [ExternalCamera] Skipped 9 frames (57861 -> 57871): Req time: 1695.314119, Current CT: 1695.314116
+
+[2016.01.23-18.57.39:879][313]OCULUS: Info: 01/23/16 18:57:39: [From Service] 01/23/16 18:57:39: [ExternalCamera] Skipped 1 frames (57871 -> 57873): Req time: 1695.347448, Current CT: 1695.347465
+
+[2016.01.23-18.57.55:558][359]OCULUS: Info: 01/23/16 18:57:55: [From Service] 01/23/16 18:57:55: [ExternalCamera] Skipped 1 frames (58809 -> 58811): Req time: 1710.980242, Current CT: 1710.980241
+
+[2016.01.23-18.57.55:558][359]OCULUS: Info: 01/23/16 18:57:55: [From Service] 01/23/16 18:57:55: [ExternalCamera] Skipped 7 frames (58811 -> 58819): Req time: 1711.113569, Current CT: 1711.113574
+
+[2016.01.23-18.57.55:558][359]OCULUS: Info: 01/23/16 18:57:55: [From Service] 01/23/16 18:57:55: [ExternalCamera] Skipped 1 frames (58819 -> 58821): Req time: 1711.146906, Current CT: 1711.146904
+
+[2016.01.23-18.57.55:558][359]OCULUS: Info: 01/23/16 18:57:55: [From Service] 01/23/16 18:57:55: [ExternalCamera] Skipped 4 frames (58821 -> 58826): Req time: 1711.230234, Current CT: 1711.230234
+
+[2016.01.23-18.57.55:558][359]OCULUS: Info: 01/23/16 18:57:55: [From Service] 01/23/16 18:57:55: [ExternalCamera] Skipped 7 frames (58826 -> 58834): Req time: 1711.363562, Current CT: 1711.363571
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:57: [From Service] 01/23/16 18:57:57: [ExternalCamera] Skipped 1 frames (58955 -> 58957): Req time: 1713.413505, Current CT: 1713.413506
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:57: [From Service] 01/23/16 18:57:57: [ExternalCamera] Skipped 14 frames (58957 -> 58972): Req time: 1713.663496, Current CT: 1713.663503
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:57: [From Service] 01/23/16 18:57:57: [ExternalCamera] Skipped 6 frames (58972 -> 58979): Req time: 1713.780165, Current CT: 1713.780168
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:58: [From Service] 01/23/16 18:57:58: [ExternalCamera] Skipped 8 frames (58979 -> 58988): Req time: 1713.930162, Current CT: 1713.930166
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:58: [From Service] 01/23/16 18:57:58: [ExternalCamera] Skipped 11 frames (58988 -> 59000): Req time: 1714.130158, Current CT: 1714.130164
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:58: [From Service] 01/23/16 18:57:58: [ExternalCamera] Skipped 11 frames (59000 -> 59012): Req time: 1714.330156, Current CT: 1714.330160
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:58: [From Service] 01/23/16 18:57:58: [ExternalCamera] Skipped 6 frames (59012 -> 59019): Req time: 1714.446822, Current CT: 1714.446825
+
+[2016.01.23-18.57.58:712][362]OCULUS: Info: 01/23/16 18:57:58: [From Service] 01/23/16 18:57:58: [ExternalCamera] Skipped 3 frames (59019 -> 59023): Req time: 1714.513489, Current CT: 1714.513491
+
+[2016.01.23-18.58.42:906][490]OCULUS: Info: 01/23/16 18:58:41: [From Service] 01/23/16 18:58:41: [ExternalCamera] Skipped 1 frames (61596 -> 61598): Req time: 1757.428662, Current CT: 1757.428662
+
+[2016.01.23-18.58.42:906][490]OCULUS: Info: 01
